@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "VyaparSathi",
+    "slug": "vyaparsathi-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0b2545",
+      "resizeMode": "contain"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vyaparsathi.mobile"
+    },
+    "android": {
+      "package": "com.vyaparsathi.mobile",
+      "adaptiveIcon": {
+        "backgroundColor": "#0b2545"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "extra": {
+      "apiBaseUrl": "http://10.0.2.2:8000/api",
+      "fallbackApiUrl": "http://localhost:8000/api"
+
+    }
+  }
+}

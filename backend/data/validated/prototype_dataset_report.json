@@ -1,0 +1,33 @@
+{
+  "total_rows": 1000,
+  "total_columns": 14,
+  "target_column": "business_category",
+  "is_valid": false,
+  "issues": [
+    "CRITICAL FEATURE LEAKAGE: Columns ['expected_demand', 'monthly_revenue', 'monthly_expenses', 'business_suitability_score'] must not be present in feature set for target 'business_category'."
+  ],
+  "warnings": [],
+  "summary": {
+    "duplicate_rows": 0,
+    "missing_values_per_column": {},
+    "outliers_detected": {
+      "workers": 17,
+      "electricity_available": 91,
+      "water_available": 179,
+      "monthly_revenue": 4,
+      "monthly_expenses": 7
+    },
+    "target_class_distribution": {
+      "Dairy Processing": 118,
+      "Food Processing": 110,
+      "Bakery": 107,
+      "Agri Input Shop": 107,
+      "Handicraft": 100,
+      "Tailoring": 96,
+      "Spice Processing": 94,
+      "Poultry": 94,
+      "Fruit & Vegetable Processing": 91,
+      "Grocery Retail": 83
+    }
+  }
+}

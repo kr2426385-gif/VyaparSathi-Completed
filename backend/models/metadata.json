@@ -1,0 +1,119 @@
+{
+  "system": "VyaparSathi ML Model Registry",
+  "version": "1.0.0",
+  "lastUpdated": "2026-03-01",
+  "notes": "Current models were trained on synthetic prototype survey distributions for rural Maharashtra MSMEs. Real field data collection protocols are prepared in the data/ pipeline for upcoming production dataset replacement.",
+  "models": {
+    "business_category": {
+      "model_name": "vyaparsathi_business_category_model",
+      "artifact_file": "vyaparsathi_business_category_model.joblib",
+      "version": "1.0.0",
+      "algorithm": "GradientBoostingClassifier",
+      "datasetType": "synthetic-prototype",
+      "training_dataset": "business_suitability_assessment.csv",
+      "training_date": "2026-03-01",
+      "features": [
+        "budget",
+        "experience_years",
+        "skill_level",
+        "land_available",
+        "water_available",
+        "electricity_available",
+        "location_type"
+      ],
+      "target": "business_category",
+      "num_classes": 10,
+      "classes": [
+        "Agri Input Shop",
+        "Bakery",
+        "Dairy Processing",
+        "Food Processing",
+        "Fruit & Vegetable Processing",
+        "Grocery Retail",
+        "Handicraft",
+        "Poultry",
+        "Spice Processing",
+        "Tailoring"
+      ],
+      "metrics": {
+        "validation_accuracy": 0.82,
+        "f1_weighted": 0.81
+      },
+      "disclaimer": "Prototype validation on synthetic data; not representative of real-world production accuracy."
+    },
+    "demand_prediction": {
+      "model_name": "vyaparsathi_demand_model",
+      "artifact_file": "vyaparsathi_demand_model.joblib",
+      "version": "1.0.0",
+      "algorithm": "RandomForestClassifier",
+      "datasetType": "synthetic-prototype",
+      "training_dataset": "business_suitability_assessment.csv",
+      "training_date": "2026-03-01",
+      "features": [
+        "market_distance_km",
+        "budget",
+        "business_category",
+        "location_type"
+      ],
+      "target": "expected_demand",
+      "num_classes": 3,
+      "classes": ["High", "Low", "Medium"],
+      "metrics": {
+        "validation_accuracy": 0.88,
+        "f1_macro": 0.87
+      },
+      "disclaimer": "Prototype validation on synthetic data; not representative of real-world production accuracy."
+    },
+    "business_suitability": {
+      "model_name": "vyaparsathi_business_suitability_model",
+      "artifact_file": "vyaparsathi_business_suitability_model.pkl",
+      "version": "1.0.0",
+      "algorithm": "RandomForestRegressor",
+      "datasetType": "synthetic-prototype",
+      "training_dataset": "business_suitability_assessment.csv",
+      "training_date": "2026-02-15",
+      "features": [
+        "investment_budget",
+        "experience_years",
+        "land_available",
+        "water_available",
+        "electricity_available",
+        "market_distance_km",
+        "competitor_count",
+        "workers"
+      ],
+      "target": "business_suitability_score",
+      "metrics": {
+        "r2_score": 0.84,
+        "rmse": 0.08
+      },
+      "disclaimer": "Prototype validation on synthetic data; not representative of real-world production accuracy."
+    },
+    "profit_prediction": {
+      "model_name": "vyaparsathi_profit_model",
+      "artifact_file": "vyaparsathi_profit_model.pkl",
+      "version": "1.0.0",
+      "algorithm": "RandomForestRegressor",
+      "datasetType": "synthetic-prototype",
+      "training_dataset": "business_suitability_assessment.csv",
+      "training_date": "2026-02-15",
+      "features": [
+        "budget",
+        "experience_years",
+        "land_available",
+        "workers",
+        "electricity_available",
+        "water_available",
+        "market_distance_km",
+        "business_suitability_score",
+        "budget_per_worker"
+      ],
+      "target": "monthly_profit",
+      "metrics": {
+        "r2_score": 0.86,
+        "mae": 3200
+      },
+      "disclaimer": "Prototype validation on synthetic data; not representative of real-world production accuracy."
+    }
+  }
+}

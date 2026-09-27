@@ -1,0 +1,615 @@
+{
+  "VERIFIED_EQUIPMENT_CATALOG": [
+    {
+      "id": "eq_dairy_01",
+      "name": "Automatic Dual-Bucket Milking Machine",
+      "nameMr": "स्वयंचलित दुहेरी बादली मिल्किंग मशीन",
+      "nameHi": "ऑटोमैटिक डबल बाल्टी मिल्किंग मशीन",
+      "category": "Dairy & Cattle",
+      "businessTypes": [
+        "Dairy",
+        "Dairy Farming",
+        "Milk Processing",
+        "Agri & Allied"
+      ],
+      "purpose": "Hygienic milking of 10-15 cows/buffaloes per hour with pulsation cycle control.",
+      "priority": "essential",
+      "estimatedPriceRange": {
+        "min": 45000,
+        "max": 68000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "Standard Maharashtra KVK benchmark with 0.75HP oil-lubricated vacuum pump"
+      },
+      "powerRequirement": {
+        "phase": "single_phase",
+        "hp": 1,
+        "kw": 0.75,
+        "description": "Standard 230V 50Hz single-phase connection"
+      },
+      "installationRequirement": "Leveled concrete milkshed with clean water wash station and standard electrical point.",
+      "capacity": {
+        "amount": 15,
+        "unit": "animals/hour"
+      },
+      "dataSource": "kvk_standard",
+      "eligibleSchemes": [
+        "CMEGP",
+        "PMEGP",
+        "Dairy Infra Support"
+      ]
+    },
+    {
+      "id": "eq_dairy_02",
+      "name": "Motorized Chaff Cutter (3HP Heavy Duty)",
+      "nameMr": "मोटराइज्ड कडबा कुट्टी मशीन (३ एचपी)",
+      "nameHi": "मोटराइज्ड कड़बी कुट्टी मशीन (3 एचपी)",
+      "category": "Dairy & Cattle",
+      "businessTypes": [
+        "Dairy",
+        "Dairy Farming",
+        "Cattle Feed",
+        "Agri & Allied"
+      ],
+      "purpose": "Cutting green and dry fodder (maize, sugarcane tops, jowar) into uniform small pieces for better digestibility.",
+      "priority": "essential",
+      "estimatedPriceRange": {
+        "min": 28000,
+        "max": 38000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "3-blade reverse gear model benchmark"
+      },
+      "powerRequirement": {
+        "phase": "single_phase",
+        "hp": 3,
+        "kw": 2.2,
+        "description": "Heavy duty single-phase or three-phase compatible motor"
+      },
+      "installationRequirement": "Firm foundation bolts on concrete plinth to minimize vibration.",
+      "capacity": {
+        "amount": 600,
+        "unit": "kg/hour"
+      },
+      "dataSource": "kvk_standard",
+      "eligibleSchemes": [
+        "MahaDBT Farm Mechanization",
+        "CMEGP"
+      ]
+    },
+    {
+      "id": "eq_dairy_03",
+      "name": "Bulk Milk Cooler (BMC 500 Liters with DG Backup)",
+      "nameMr": "बल्क मिल्क कुलर (५०० लिटर)",
+      "nameHi": "बल्क मिल्क कूलर (500 लीटर)",
+      "category": "Dairy & Cattle",
+      "businessTypes": [
+        "Dairy",
+        "Milk Processing",
+        "Village Dairy Center"
+      ],
+      "purpose": "Rapid chilling of pooled raw milk from 35°C to 4°C within 3 hours to prevent microbial spoilage.",
+      "priority": "recommended",
+      "estimatedPriceRange": {
+        "min": 240000,
+        "max": 320000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "SS-304 food grade tank with hermetic compressor"
+      },
+      "powerRequirement": {
+        "phase": "three_phase",
+        "hp": 4.5,
+        "kw": 3.3,
+        "description": "415V three-phase industrial connection with generator backup"
+      },
+      "installationRequirement": "Enclosed sanitary milk chilling room, wash bay with hot water line, and 3-phase power point.",
+      "capacity": {
+        "amount": 500,
+        "unit": "liters/batch"
+      },
+      "dataSource": "manufacturer_catalog",
+      "eligibleSchemes": [
+        "National Dairy Development Board (NDDB)",
+        "CMEGP",
+        "PMEGP"
+      ]
+    },
+    {
+      "id": "eq_dairy_04",
+      "name": "Digital Ultrasonic Milk Analyzer & Data Receiver",
+      "nameMr": "डिजिटल अल्ट्रासोनिक दुध तपासणी यंत्र",
+      "nameHi": "डिजिटल अल्ट्रासोनिक मिल्क एनालाइज़र",
+      "category": "Dairy & Cattle",
+      "businessTypes": [
+        "Dairy",
+        "Milk Processing",
+        "Village Dairy Center"
+      ],
+      "purpose": "Instant testing of Milk Fat %, SNF, Density, and Added Water in 30 seconds.",
+      "priority": "recommended",
+      "estimatedPriceRange": {
+        "min": 32000,
+        "max": 48000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "Includes cleaning cycle kit and thermal printer output"
+      },
+      "powerRequirement": {
+        "phase": "single_phase",
+        "hp": 0.1,
+        "kw": 0.08,
+        "description": "Standard 230V AC or 12V DC battery backup"
+      },
+      "installationRequirement": "Clean tabletop, dust-free collection counter.",
+      "capacity": {
+        "amount": 80,
+        "unit": "samples/hour"
+      },
+      "dataSource": "kvk_standard",
+      "eligibleSchemes": [
+        "CMEGP"
+      ]
+    },
+    {
+      "id": "eq_grain_01",
+      "name": "Heavy Duty Multi-Grain Atta Chakki (5 HP Stone Mill)",
+      "nameMr": "हेवी ड्युटी बहुधान्य आटा चक्की (५ एचपी)",
+      "nameHi": "मल्टीग्रेन आटा चक्की (5 एचपी)",
+      "category": "Flour & Dal Processing",
+      "businessTypes": [
+        "Flour Mill",
+        "Grain Processing",
+        "Food Processing",
+        "Agro Processing"
+      ],
+      "purpose": "Fine grinding of wheat, jowar, bajra, and multi-grain mixes without burning flour nutrition.",
+      "priority": "essential",
+      "estimatedPriceRange": {
+        "min": 42000,
+        "max": 58000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "16-inch emery stone mill with commercial cast iron body"
+      },
+      "powerRequirement": {
+        "phase": "three_phase",
+        "hp": 5,
+        "kw": 3.75,
+        "description": "415V three-phase commercial connection"
+      },
+      "installationRequirement": "Solid masonry pedestal to absorb rotational inertia, dust ventilation duct.",
+      "capacity": {
+        "amount": 50,
+        "unit": "kg/hour"
+      },
+      "dataSource": "kvk_standard",
+      "eligibleSchemes": [
+        "PMFME",
+        "PMEGP",
+        "MUDRA Kishore"
+      ]
+    },
+    {
+      "id": "eq_grain_02",
+      "name": "Mini Dal Mill with Destoner & Polisher (100 kg/hr)",
+      "nameMr": "मिनी डाळ मिल - खडे वेगळे करणे व पॉलिशरसह",
+      "nameHi": "मिनी दाल मिल (स्टोनर व पॉलिशर सहित)",
+      "category": "Flour & Dal Processing",
+      "businessTypes": [
+        "Dal Mill",
+        "Grain Processing",
+        "Food Processing",
+        "Agro Processing"
+      ],
+      "purpose": "Dehusking, splitting, and grading of pigeon pea (Tur), gram (Chana), and moong.",
+      "priority": "essential",
+      "estimatedPriceRange": {
+        "min": 110000,
+        "max": 165000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "Semi-automatic PKV Akola approved design benchmark"
+      },
+      "powerRequirement": {
+        "phase": "three_phase",
+        "hp": 5,
+        "kw": 3.75,
+        "description": "415V three-phase power line"
+      },
+      "installationRequirement": "Covered shed with concrete flooring, min 300 sq.ft working area.",
+      "capacity": {
+        "amount": 100,
+        "unit": "kg/hour"
+      },
+      "dataSource": "kvk_standard",
+      "eligibleSchemes": [
+        "PMFME",
+        "CMEGP",
+        "SMART Agribusiness"
+      ]
+    },
+    {
+      "id": "eq_grain_03",
+      "name": "Vibratory Grain Destoner & Grader",
+      "nameMr": "धान्य खडे निवडणारे व्हायब्रेटरी यंत्र",
+      "nameHi": "वाइब्रेटरी ग्रेन डीस्टोनर व ग्रेडर",
+      "category": "Flour & Dal Processing",
+      "businessTypes": [
+        "Flour Mill",
+        "Dal Mill",
+        "Grain Processing",
+        "Food Processing"
+      ],
+      "purpose": "Air-suction separation of stones, mud balls, and dust before milling for food-grade output.",
+      "priority": "recommended",
+      "estimatedPriceRange": {
+        "min": 55000,
+        "max": 75000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "Industrial vibratory screener"
+      },
+      "powerRequirement": {
+        "phase": "single_phase",
+        "hp": 2,
+        "kw": 1.5,
+        "description": "Single-phase 230V or three-phase 415V"
+      },
+      "installationRequirement": "Level floor next to dal or flour mill intake.",
+      "capacity": {
+        "amount": 250,
+        "unit": "kg/hour"
+      },
+      "dataSource": "kvk_standard",
+      "eligibleSchemes": [
+        "PMFME",
+        "MUDRA"
+      ]
+    },
+    {
+      "id": "eq_spice_01",
+      "name": "Stainless Steel Commercial Micro Pulverizer (3HP)",
+      "nameMr": "एसएस व्यावसायिक मायक्रो पल्व्हरायझर (३ एचपी)",
+      "nameHi": "एसएस कमर्शियल माइक्रो पल्वराइज़र (3 एचपी)",
+      "category": "Spices & Condiments",
+      "businessTypes": [
+        "Spice Grinding",
+        "Masala Processing",
+        "Turmeric Processing",
+        "Food Processing"
+      ],
+      "purpose": "Fine pulverization of turmeric fingers, dry red chillies, coriander, and garam masala blend.",
+      "priority": "essential",
+      "estimatedPriceRange": {
+        "min": 52000,
+        "max": 72000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "SS-304 contact parts with water-cooling jacket chamber"
+      },
+      "powerRequirement": {
+        "phase": "three_phase",
+        "hp": 3,
+        "kw": 2.2,
+        "description": "415V three-phase heavy duty motor"
+      },
+      "installationRequirement": "Dust exhaust system, vibration pads on concrete floor.",
+      "capacity": {
+        "amount": 35,
+        "unit": "kg/hour"
+      },
+      "dataSource": "kvk_standard",
+      "eligibleSchemes": [
+        "PMFME",
+        "CMEGP",
+        "PMEGP"
+      ]
+    },
+    {
+      "id": "eq_spice_02",
+      "name": "Automatic Spice Roasting Drum Machine",
+      "nameMr": "स्वयंचलित मसाला भाजणी यंत्र",
+      "nameHi": "ऑटोमैटिक मसाला रोस्टिंग ड्रम मशीन",
+      "category": "Spices & Condiments",
+      "businessTypes": [
+        "Spice Grinding",
+        "Masala Processing",
+        "Food Processing"
+      ],
+      "purpose": "Even temperature roasting of coriander, cumin, and whole spices without burning aromatic oils.",
+      "priority": "recommended",
+      "estimatedPriceRange": {
+        "min": 45000,
+        "max": 65000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "LPG or electric heating model benchmark"
+      },
+      "powerRequirement": {
+        "phase": "single_phase",
+        "hp": 0.5,
+        "kw": 0.37,
+        "description": "Single phase motor for drum rotation with LPG heating"
+      },
+      "installationRequirement": "Ventilated chimney exhaust for aroma and smoke release.",
+      "capacity": {
+        "amount": 25,
+        "unit": "kg/batch"
+      },
+      "dataSource": "manufacturer_catalog",
+      "eligibleSchemes": [
+        "PMFME",
+        "MUDRA"
+      ]
+    },
+    {
+      "id": "eq_oil_01",
+      "name": "Wooden Cold Press Oil Ghani (Lakdi Ghana 10kg)",
+      "nameMr": "लाकडी घाणा तेल गाळणी यंत्र (१० किलो)",
+      "nameHi": "लकड़ी का घाना / कोल्ड प्रेस्ड ऑयल मशीन",
+      "category": "Oil Extraction",
+      "businessTypes": [
+        "Oil Expeller",
+        "Cold Press Oil",
+        "Agro Processing",
+        "Food Processing"
+      ],
+      "purpose": "Cold press extraction of virgin groundnut, safflower (Kardi), sesame, and mustard oil at low temperature (< 45°C).",
+      "priority": "essential",
+      "estimatedPriceRange": {
+        "min": 125000,
+        "max": 175000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "Vagai/Babul wood pestle and mortar with gear reduction box"
+      },
+      "powerRequirement": {
+        "phase": "single_phase",
+        "hp": 2,
+        "kw": 1.5,
+        "description": "230V single phase or 415V three-phase high torque motor"
+      },
+      "installationRequirement": "Reinforced concrete pad with anchor bolts.",
+      "capacity": {
+        "amount": 10,
+        "unit": "kg/batch (45 mins)"
+      },
+      "dataSource": "kvk_standard",
+      "eligibleSchemes": [
+        "PMFME (35% Subsidy)",
+        "CMEGP",
+        "PMEGP"
+      ]
+    },
+    {
+      "id": "eq_oil_02",
+      "name": "Food Grade Plate & Frame Oil Filter Press",
+      "nameMr": "फूड ग्रेड ऑइल फिल्टर प्रेस यंत्र",
+      "nameHi": "प्लेट व फ्रेम ऑयल फिल्टर प्रेस",
+      "category": "Oil Extraction",
+      "businessTypes": [
+        "Oil Expeller",
+        "Cold Press Oil",
+        "Food Processing"
+      ],
+      "purpose": "Crystal clear filtration of cold-pressed oil without chemical bleaching.",
+      "priority": "recommended",
+      "estimatedPriceRange": {
+        "min": 38000,
+        "max": 52000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "12-plate food grade cotton filter canvas system"
+      },
+      "powerRequirement": {
+        "phase": "single_phase",
+        "hp": 1,
+        "kw": 0.75,
+        "description": "Single phase gear pump"
+      },
+      "installationRequirement": "Next to storage oil sump with food-safe drainage tray.",
+      "capacity": {
+        "amount": 120,
+        "unit": "liters/hour"
+      },
+      "dataSource": "kvk_standard",
+      "eligibleSchemes": [
+        "PMFME",
+        "MUDRA"
+      ]
+    },
+    {
+      "id": "eq_cold_01",
+      "name": "Solar-Powered Micro Cold Room (5 Metric Ton)",
+      "nameMr": "सौर उर्जेवर चालणारे ५ टन कोल्ड रूम",
+      "nameHi": "सोलर पावर्ड माइक्रो कोल्ड रूम (5 मीट्रिक टन)",
+      "category": "Solar & Cold Chain",
+      "businessTypes": [
+        "Cold Storage",
+        "Horticulture",
+        "Vegetable Trade",
+        "Floriculture",
+        "Agri & Allied"
+      ],
+      "purpose": "Preserving perishable fruits, vegetables, and flowers for 15-21 days using thermal storage battery-less cooling.",
+      "priority": "essential",
+      "estimatedPriceRange": {
+        "min": 550000,
+        "max": 850000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "Complete with 5kW rooftop solar panels and puff insulation"
+      },
+      "powerRequirement": {
+        "phase": "solar",
+        "hp": 6,
+        "kw": 4.5,
+        "description": "Solar PV Direct Drive with automatic grid interchange"
+      },
+      "installationRequirement": "Civil plinth 12x12 ft, unshaded rooftop or open land for 5kW solar panels.",
+      "capacity": {
+        "amount": 5,
+        "unit": "metric tons"
+      },
+      "dataSource": "kvk_standard",
+      "eligibleSchemes": [
+        "Mission for Integrated Development of Horticulture (MIDH)",
+        "CMEGP",
+        "SMART"
+      ]
+    },
+    {
+      "id": "eq_dry_01",
+      "name": "Polyhouse Solar Tunnel Dryer (50 kg Capacity)",
+      "nameMr": "सौर टनेल ड्रायर (५० किलो क्षमता)",
+      "nameHi": "सोलर टनल ड्रायर (50 किग्रा)",
+      "category": "Solar & Cold Chain",
+      "businessTypes": [
+        "Food Processing",
+        "Agro Processing",
+        "Spices & Condiments",
+        "Dehydration"
+      ],
+      "purpose": "Hygienic, dust-free, and rain-safe solar drying of grapes (raisins), onions, chillies, and herbal leaves.",
+      "priority": "recommended",
+      "estimatedPriceRange": {
+        "min": 65000,
+        "max": 95000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "UV-stabilized poly greenhouse sheet with DC exhaust fans"
+      },
+      "powerRequirement": {
+        "phase": "solar",
+        "hp": 0.2,
+        "kw": 0.15,
+        "description": "Small 50W solar panel for DC exhaust ventilation fans"
+      },
+      "installationRequirement": "Unshaded south-facing open ground or flat rooftop.",
+      "capacity": {
+        "amount": 50,
+        "unit": "kg/batch"
+      },
+      "dataSource": "kvk_standard",
+      "eligibleSchemes": [
+        "MahaDBT Horticulture",
+        "PMFME"
+      ]
+    },
+    {
+      "id": "eq_pack_01",
+      "name": "Nitrogen Flush Continuous Band Sealer",
+      "nameMr": "नायट्रोजन फ्लश सतत बँड सीलर यंत्र",
+      "nameHi": "नाइट्रोजन फ्लश कंटीन्यूअस बैंड सीलर",
+      "category": "Packaging & Post-Harvest",
+      "businessTypes": [
+        "Food Processing",
+        "Bakery & Snack Processing",
+        "Spice Grinding",
+        "Flour Mill"
+      ],
+      "purpose": "Airtight packaging of snacks, powders, and grains with nitrogen injection to extend shelf life to 6 months.",
+      "priority": "recommended",
+      "estimatedPriceRange": {
+        "min": 26000,
+        "max": 38000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "Horizontal conveyor pouch sealing system"
+      },
+      "powerRequirement": {
+        "phase": "single_phase",
+        "hp": 0.7,
+        "kw": 0.5,
+        "description": "Standard 230V AC socket"
+      },
+      "installationRequirement": "Tabletop counter in packaging area.",
+      "capacity": {
+        "amount": 20,
+        "unit": "pouches/min"
+      },
+      "dataSource": "manufacturer_catalog",
+      "eligibleSchemes": [
+        "PMFME",
+        "MUDRA Shishu/Kishore"
+      ]
+    },
+    {
+      "id": "eq_auto_01",
+      "name": "Fully Automated Rotary Pouch Form-Fill-Seal (FFS) Machine",
+      "nameMr": "पूर्ण स्वयंचलित रोटरी पाऊच पॅकिंग मशीन",
+      "nameHi": "फुल्ली ऑटोमैटिक रोटरी पाउच पैकिंग मशीन",
+      "category": "Packaging & Post-Harvest",
+      "businessTypes": [
+        "Food Processing",
+        "Spice Grinding",
+        "Flour Mill",
+        "Oil Extraction"
+      ],
+      "purpose": "High-speed automated pouching, weighing, nitrogen dosing, and batch coding.",
+      "priority": "upgrade",
+      "estimatedPriceRange": {
+        "min": 450000,
+        "max": 750000,
+        "currency": "INR",
+        "isVerified": true,
+        "priceNote": "Industrial servo-driven FFS system"
+      },
+      "powerRequirement": {
+        "phase": "three_phase",
+        "hp": 5,
+        "kw": 3.75,
+        "description": "415V three phase with pneumatic air compressor (5HP)"
+      },
+      "installationRequirement": "Industrial shed with 3-phase connection and moisture-free air line.",
+      "capacity": {
+        "amount": 60,
+        "unit": "pouches/min"
+      },
+      "dataSource": "manufacturer_catalog",
+      "eligibleSchemes": [
+        "CMEGP",
+        "PMEGP",
+        "PMFME"
+      ]
+    },
+    {
+      "id": "eq_custom_01",
+      "name": "Custom Industrial Fruit Pulp Pasteurizer & Homogenizer",
+      "nameMr": "कस्टम इंडस्ट्रियल फळ रस पाश्चरायझर",
+      "nameHi": "कस्टम फ्रूट पल्प पाश्चराइज़र यूनिट",
+      "category": "Agro & Food Processing",
+      "businessTypes": [
+        "Agro Processing",
+        "Food Processing",
+        "Fruit Pulping"
+      ],
+      "purpose": "Continuous heat treatment and sterile packing of mango and guava pulp.",
+      "priority": "upgrade",
+      "estimatedPriceRange": {
+        "min": null,
+        "max": null,
+        "currency": "INR",
+        "isVerified": false,
+        "priceNote": "Custom quote required based on boiler fuel and flow rate specification"
+      },
+      "powerRequirement": {
+        "phase": "three_phase",
+        "hp": 7.5,
+        "kw": 5.5,
+        "description": "Heavy 3-phase connection + steam boiler hookup"
+      },
+      "installationRequirement": "Industrial food processing zone with effluent drainage and boiler safety clearance.",
+      "capacity": {
+        "amount": 500,
+        "unit": "liters/hour"
+      },
+      "dataSource": "manufacturer_catalog",
+      "eligibleSchemes": [
+        "CMEGP",
+        "PMFME"
+      ]
+    }
+  ]
+}

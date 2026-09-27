@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "usr_1790475142564",
+      "name": "Ramesh Patil (Sahyadri Agro)",
+      "email": "entrepreneur@vyaparsathi.in",
+      "phone": "9822012345",
+      "state": "Maharashtra",
+      "district": "Satara",
+      "role": "entrepreneur",
+      "password": "$2b$10$c7jNKj4liWEmoTjgvTi1VOacWyeec.zUyv9/0wnPemjMqaQe04g2K",
+      "createdAt": "2026-09-27T07:42:22.564994"
+    }
+  ],
+  "profiles": {},
+  "assessments": [],
+  "equipment": [],
+  "quotations": [],
+  "maintenance": [],
+  "feedback": []
+}

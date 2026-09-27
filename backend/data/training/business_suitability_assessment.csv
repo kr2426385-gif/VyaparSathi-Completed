@@ -1,0 +1,1001 @@
+location_type,budget,experience_years,skill_level,land_available,workers,electricity_available,water_available,market_distance_km,business_category,expected_demand,monthly_revenue,monthly_expenses,business_suitability_score
+Rural,430000,7,High,0,6,1,1,7,Spice Processing,High,182000,120000,98
+Rural,190000,4,Low,0,3,1,1,12,Poultry,Medium,66000,47000,63
+Rural,135000,6,Medium,1,1,1,1,12,Handicraft,Low,42000,28000,74
+Rural,230000,4,Medium,1,4,1,0,8,Bakery,Medium,87000,56000,76
+Rural,395000,10,High,1,4,1,1,6,Spice Processing,High,180000,126000,98
+Rural,85000,4,Low,0,1,1,0,16,Agri Input Shop,Low,24000,16000,45
+Rural,405000,10,High,1,4,1,1,8,Food Processing,High,169000,106000,98
+Semi-Urban,320000,7,High,1,6,1,0,2,Spice Processing,Medium,119000,78000,98
+Rural,125000,2,Medium,0,3,1,1,4,Handicraft,High,61000,41000,90
+Semi-Urban,310000,8,Medium,1,4,1,1,1,Bakery,Medium,106000,64000,98
+Rural,205000,3,Low,1,2,1,1,9,Poultry,Low,68000,43000,58
+Rural,100000,5,High,0,4,1,1,13,Handicraft,Medium,40000,26000,79
+Rural,130000,6,Medium,1,2,1,1,12,Handicraft,Low,38000,23000,68
+Semi-Urban,275000,7,High,1,4,1,1,2,Food Processing,High,115000,69000,98
+Rural,100000,2,High,0,1,1,0,12,Tailoring,Low,34000,22000,57
+Semi-Urban,205000,7,High,0,2,1,1,4,Bakery,High,89000,59000,98
+Semi-Urban,145000,5,Medium,0,2,1,1,4,Grocery Retail,Medium,55000,36000,85
+Rural,80000,2,High,0,1,1,1,11,Handicraft,Low,28000,19000,69
+Rural,90000,3,Medium,1,3,0,1,11,Tailoring,Low,27000,18000,59
+Semi-Urban,135000,5,Medium,0,2,1,1,3,Grocery Retail,Low,48000,28000,78
+Semi-Urban,205000,7,High,0,3,1,1,3,Bakery,Medium,86000,61000,98
+Semi-Urban,320000,4,Medium,0,2,1,1,4,Dairy Processing,Medium,111000,75000,82
+Rural,65000,3,Medium,0,1,1,0,3,Agri Input Shop,Low,21000,13000,61
+Semi-Urban,50000,5,Medium,0,3,1,1,5,Tailoring,High,22000,14000,95
+Semi-Urban,595000,7,High,1,7,1,1,3,Fruit & Vegetable Processing,High,258000,180000,98
+Rural,205000,7,High,1,4,1,1,14,Dairy Processing,Medium,83000,51000,91
+Rural,130000,4,Low,0,2,1,0,13,Agri Input Shop,Low,45000,28000,45
+Rural,260000,4,High,1,3,1,1,7,Food Processing,High,127000,89000,98
+Semi-Urban,295000,6,High,1,4,1,1,3,Spice Processing,High,126000,83000,98
+Rural,110000,1,Medium,1,1,0,0,14,Poultry,Low,34000,24000,45
+Rural,415000,11,High,1,8,1,1,7,Fruit & Vegetable Processing,High,193000,114000,98
+Semi-Urban,345000,8,High,0,5,1,1,3,Food Processing,Medium,138000,90000,98
+Rural,200000,3,Medium,0,2,1,1,13,Bakery,Medium,71000,50000,69
+Rural,415000,5,High,1,3,1,1,6,Food Processing,High,195000,120000,98
+Rural,330000,5,High,1,5,1,1,15,Spice Processing,Medium,115000,79000,84
+Semi-Urban,230000,6,Medium,0,2,1,1,4,Bakery,Medium,84000,57000,85
+Rural,435000,7,High,1,5,1,1,15,Fruit & Vegetable Processing,Low,144000,96000,78
+Rural,455000,7,High,1,5,1,1,15,Spice Processing,Medium,158000,111000,89
+Semi-Urban,85000,2,Low,0,2,1,0,4,Grocery Retail,Low,29000,21000,52
+Rural,190000,1,Low,1,2,0,1,15,Poultry,Low,66000,45000,45
+Rural,485000,9,High,1,4,1,1,13,Fruit & Vegetable Processing,Medium,194000,130000,92
+Rural,145000,3,Medium,0,1,1,1,16,Grocery Retail,Medium,54000,33000,62
+Rural,105000,1,Medium,0,1,0,1,7,Agri Input Shop,Medium,39000,25000,64
+Rural,525000,6,High,0,4,1,1,10,Fruit & Vegetable Processing,Medium,183000,121000,86
+Rural,75000,1,Medium,0,2,1,0,3,Agri Input Shop,Low,21000,15000,58
+Rural,315000,4,High,1,4,1,1,3,Bakery,Medium,110000,78000,98
+Semi-Urban,115000,1,Medium,0,2,1,0,3,Grocery Retail,Medium,45000,30000,70
+Rural,160000,3,Low,1,2,1,1,9,Poultry,Medium,61000,41000,67
+Semi-Urban,435000,9,High,1,5,1,1,2,Spice Processing,High,190000,125000,98
+Rural,115000,6,Medium,1,3,1,1,16,Handicraft,Medium,43000,30000,76
+Semi-Urban,405000,7,High,1,3,1,1,2,Food Processing,High,182000,128000,98
+Rural,205000,5,High,0,4,1,1,17,Dairy Processing,Low,70000,45000,67
+Rural,145000,2,Low,1,2,1,1,14,Poultry,Low,47000,31000,49
+Rural,120000,1,Low,0,1,1,1,10,Grocery Retail,Low,37000,23000,45
+Semi-Urban,120000,3,Medium,1,2,1,1,3,Handicraft,Low,36000,23000,76
+Rural,145000,4,Low,0,3,0,1,15,Poultry,Low,52000,31000,45
+Rural,120000,3,Medium,1,1,1,1,16,Grocery Retail,Medium,45000,29000,69
+Rural,75000,5,Medium,0,3,1,1,8,Tailoring,Medium,26000,16000,81
+Rural,95000,2,Medium,1,1,1,0,8,Tailoring,Medium,37000,27000,68
+Rural,80000,2,Medium,0,1,1,0,16,Agri Input Shop,Medium,31000,22000,54
+Rural,170000,2,Medium,1,2,1,0,11,Poultry,Medium,68000,45000,66
+Semi-Urban,80000,4,High,0,2,1,1,3,Tailoring,Medium,30000,19000,95
+Rural,115000,2,Low,0,1,1,1,3,Grocery Retail,Low,36000,21000,60
+Rural,110000,2,Medium,0,1,0,0,8,Agri Input Shop,Low,38000,23000,45
+Rural,80000,4,Low,0,1,1,1,13,Grocery Retail,Low,28000,18000,52
+Rural,135000,4,Low,0,2,0,1,4,Agri Input Shop,Low,44000,29000,56
+Rural,165000,4,Medium,1,2,1,1,6,Poultry,High,75000,45000,97
+Rural,90000,2,High,1,4,0,1,9,Handicraft,High,40000,26000,85
+Rural,410000,9,High,0,3,1,1,10,Spice Processing,Medium,167000,118000,93
+Rural,545000,7,High,1,7,1,1,4,Fruit & Vegetable Processing,High,230000,147000,98
+Rural,165000,2,Medium,0,2,1,1,14,Handicraft,Low,55000,34000,54
+Rural,200000,5,Medium,1,4,1,1,11,Bakery,Medium,84000,50000,78
+Semi-Urban,110000,5,Medium,0,1,1,1,1,Grocery Retail,Medium,41000,24000,89
+Rural,290000,5,High,1,3,1,1,14,Bakery,Low,89000,60000,78
+Rural,130000,3,Medium,1,4,1,1,7,Handicraft,Medium,51000,31000,81
+Rural,95000,4,Medium,0,2,0,1,16,Agri Input Shop,Low,30000,18000,50
+Semi-Urban,485000,6,High,1,7,1,1,1,Fruit & Vegetable Processing,High,219000,132000,98
+Rural,405000,10,High,1,8,1,1,3,Fruit & Vegetable Processing,High,179000,115000,98
+Rural,335000,5,Medium,0,2,1,1,3,Dairy Processing,Medium,136000,86000,89
+Semi-Urban,550000,12,High,1,4,1,1,3,Fruit & Vegetable Processing,High,241000,173000,98
+Semi-Urban,285000,10,High,1,5,1,1,5,Spice Processing,High,139000,97000,98
+Rural,470000,9,High,1,7,1,1,14,Fruit & Vegetable Processing,Low,151000,97000,81
+Rural,95000,3,High,1,3,1,1,12,Handicraft,Low,30000,21000,74
+Rural,235000,3,Medium,1,3,1,1,14,Dairy Processing,Medium,92000,56000,69
+Rural,90000,5,High,0,2,1,0,16,Handicraft,Medium,33000,22000,69
+Rural,115000,6,High,1,2,1,1,17,Handicraft,Low,38000,23000,74
+Semi-Urban,415000,8,High,0,4,1,1,1,Food Processing,High,188000,121000,98
+Rural,250000,6,High,1,3,1,1,6,Dairy Processing,Medium,93000,66000,98
+Rural,140000,2,Medium,0,4,1,0,12,Handicraft,Low,48000,33000,48
+Semi-Urban,340000,4,High,1,6,1,1,5,Food Processing,High,153000,103000,98
+Rural,395000,8,High,1,5,1,0,7,Food Processing,High,177000,127000,98
+Semi-Urban,305000,5,Medium,1,2,1,1,2,Dairy Processing,Medium,106000,76000,92
+Semi-Urban,265000,4,Medium,1,2,1,1,1,Bakery,High,120000,70000,98
+Rural,85000,4,Medium,0,1,0,0,14,Agri Input Shop,Low,24000,14000,45
+Rural,345000,10,High,1,3,1,1,6,Spice Processing,High,147000,104000,98
+Rural,125000,3,Low,0,1,1,0,16,Agri Input Shop,Low,43000,29000,45
+Semi-Urban,395000,11,High,1,4,1,1,2,Fruit & Vegetable Processing,High,184000,109000,98
+Semi-Urban,290000,8,High,1,5,1,1,3,Spice Processing,High,132000,89000,98
+Semi-Urban,540000,12,High,1,5,1,1,5,Fruit & Vegetable Processing,Medium,196000,119000,98
+Rural,105000,6,High,0,3,1,1,15,Handicraft,Low,34000,24000,74
+Semi-Urban,60000,1,Medium,0,2,1,1,3,Grocery Retail,Low,19000,12000,68
+Semi-Urban,270000,7,High,1,4,1,1,4,Dairy Processing,High,119000,76000,98
+Semi-Urban,430000,9,High,1,5,1,1,2,Spice Processing,High,197000,115000,98
+Semi-Urban,285000,9,High,1,4,1,1,3,Spice Processing,High,120000,75000,98
+Rural,95000,4,High,0,3,1,1,3,Handicraft,High,44000,30000,98
+Rural,300000,5,Medium,1,5,1,1,12,Bakery,Low,85000,50000,70
+Rural,355000,8,High,1,5,1,1,5,Food Processing,High,159000,103000,98
+Semi-Urban,150000,3,High,1,3,1,1,1,Handicraft,Medium,52000,32000,96
+Rural,115000,1,High,1,2,1,1,5,Tailoring,Medium,46000,33000,88
+Semi-Urban,420000,9,High,1,3,1,1,2,Food Processing,Medium,147000,96000,98
+Rural,330000,4,High,1,4,1,1,12,Dairy Processing,Low,99000,68000,79
+Rural,380000,5,High,1,3,1,0,14,Food Processing,Low,110000,66000,66
+Rural,300000,3,Medium,0,2,1,1,11,Bakery,Medium,115000,77000,68
+Semi-Urban,335000,8,High,0,6,1,1,3,Food Processing,High,152000,89000,98
+Semi-Urban,240000,5,Medium,1,4,1,1,4,Dairy Processing,High,108000,66000,98
+Semi-Urban,300000,5,Medium,1,3,1,1,2,Bakery,Medium,113000,80000,94
+Rural,70000,4,Low,0,2,1,1,13,Agri Input Shop,Low,23000,14000,51
+Semi-Urban,410000,5,High,1,6,1,1,4,Spice Processing,High,194000,121000,98
+Semi-Urban,320000,10,High,1,3,1,1,4,Spice Processing,High,139000,96000,98
+Semi-Urban,380000,8,High,1,4,1,0,5,Fruit & Vegetable Processing,High,166000,119000,98
+Rural,70000,1,Low,1,2,1,0,16,Agri Input Shop,Low,25000,16000,45
+Rural,70000,4,Medium,0,2,1,1,7,Agri Input Shop,Medium,28000,20000,79
+Rural,275000,5,High,1,3,1,1,5,Food Processing,High,129000,87000,98
+Rural,460000,7,High,0,5,1,1,4,Spice Processing,High,214000,126000,98
+Semi-Urban,195000,5,High,0,4,1,1,3,Dairy Processing,High,86000,59000,98
+Rural,195000,4,Low,0,3,0,0,9,Poultry,Low,61000,39000,45
+Rural,115000,3,Medium,0,3,1,1,10,Poultry,Medium,48000,29000,73
+Semi-Urban,295000,5,Medium,0,2,1,1,3,Bakery,High,134000,90000,97
+Rural,280000,8,High,1,4,1,1,6,Spice Processing,High,128000,80000,98
+Semi-Urban,260000,8,High,0,4,1,1,1,Spice Processing,Medium,101000,66000,98
+Rural,150000,3,Medium,0,1,1,1,6,Poultry,Medium,57000,39000,78
+Rural,465000,6,High,0,3,1,1,10,Spice Processing,Medium,174000,120000,90
+Semi-Urban,340000,8,High,1,6,1,1,4,Food Processing,High,150000,97000,98
+Semi-Urban,90000,1,Medium,0,2,1,1,1,Tailoring,Medium,35000,25000,77
+Rural,100000,5,Low,0,2,1,1,10,Grocery Retail,Low,32000,22000,54
+Rural,130000,1,Medium,0,1,1,0,13,Agri Input Shop,Low,39000,27000,45
+Semi-Urban,485000,8,High,1,4,1,1,3,Fruit & Vegetable Processing,High,235000,142000,98
+Semi-Urban,305000,7,Medium,1,2,1,1,4,Bakery,High,125000,84000,98
+Rural,55000,4,High,0,2,1,1,7,Tailoring,High,24000,16000,96
+Rural,145000,3,Medium,0,1,1,0,15,Poultry,Low,48000,34000,47
+Rural,120000,3,Low,0,2,1,0,4,Agri Input Shop,Low,38000,24000,52
+Semi-Urban,260000,9,High,0,5,1,1,1,Spice Processing,High,115000,80000,98
+Rural,485000,11,High,1,7,1,1,5,Fruit & Vegetable Processing,Medium,200000,128000,98
+Semi-Urban,345000,5,High,1,6,1,1,4,Spice Processing,High,145000,102000,98
+Rural,155000,6,High,1,4,1,1,13,Dairy Processing,Low,52000,35000,79
+Rural,350000,3,Medium,1,2,0,1,10,Dairy Processing,Medium,146000,93000,66
+Rural,445000,7,High,1,6,1,1,12,Fruit & Vegetable Processing,Medium,155000,111000,92
+Semi-Urban,500000,9,High,1,8,1,1,4,Fruit & Vegetable Processing,High,244000,168000,98
+Rural,165000,1,Medium,1,3,1,1,15,Poultry,Low,47000,30000,53
+Semi-Urban,490000,8,High,1,8,1,1,3,Fruit & Vegetable Processing,High,232000,158000,98
+Semi-Urban,410000,6,High,1,3,1,1,5,Food Processing,High,176000,126000,98
+Semi-Urban,385000,8,High,1,4,1,1,1,Spice Processing,High,172000,101000,98
+Semi-Urban,85000,4,High,0,2,1,1,3,Tailoring,High,40000,25000,98
+Rural,135000,4,Medium,0,2,1,1,17,Handicraft,Low,48000,29000,51
+Semi-Urban,460000,6,High,1,6,1,1,5,Fruit & Vegetable Processing,High,212000,150000,98
+Rural,275000,5,Medium,1,3,1,1,14,Bakery,Medium,100000,61000,78
+Rural,350000,4,Medium,1,3,1,1,11,Dairy Processing,Medium,121000,70000,80
+Semi-Urban,410000,4,High,1,4,1,1,2,Food Processing,High,181000,115000,98
+Rural,70000,4,Low,0,2,1,1,8,Agri Input Shop,Low,20000,13000,59
+Rural,75000,3,High,1,3,1,0,5,Handicraft,High,36000,23000,98
+Rural,85000,1,Medium,0,1,1,1,5,Tailoring,High,36000,25000,84
+Rural,135000,5,High,0,2,1,1,7,Handicraft,High,61000,40000,98
+Semi-Urban,420000,12,High,1,5,1,1,3,Fruit & Vegetable Processing,High,186000,111000,98
+Rural,185000,2,Medium,0,2,1,1,14,Poultry,Medium,68000,40000,62
+Rural,320000,6,High,1,4,1,1,8,Dairy Processing,Medium,133000,79000,98
+Rural,230000,5,Medium,1,3,1,1,13,Dairy Processing,Medium,96000,66000,80
+Rural,85000,1,Medium,0,2,0,1,8,Agri Input Shop,Low,27000,17000,51
+Rural,145000,4,Low,1,1,1,1,6,Poultry,Medium,52000,35000,75
+Semi-Urban,305000,9,High,1,3,1,1,4,Spice Processing,High,133000,89000,98
+Semi-Urban,80000,4,Low,0,1,1,0,2,Grocery Retail,Low,23000,16000,56
+Semi-Urban,420000,4,High,1,4,1,1,1,Food Processing,Medium,152000,104000,98
+Rural,230000,3,High,1,4,1,1,14,Dairy Processing,Low,65000,45000,72
+Rural,215000,7,Medium,0,3,1,1,14,Bakery,Low,65000,44000,68
+Semi-Urban,155000,5,High,1,2,1,1,3,Dairy Processing,High,64000,39000,98
+Rural,150000,5,High,0,4,0,1,6,Handicraft,High,73000,43000,94
+Rural,190000,4,Medium,1,3,1,1,15,Dairy Processing,Medium,74000,47000,73
+Rural,220000,6,High,1,2,1,1,4,Dairy Processing,High,107000,70000,98
+Rural,95000,3,Medium,0,1,0,0,8,Grocery Retail,Medium,38000,24000,59
+Rural,65000,5,Medium,0,1,1,1,13,Grocery Retail,Medium,27000,17000,75
+Rural,115000,3,High,0,3,1,0,9,Tailoring,Medium,45000,32000,73
+Semi-Urban,475000,6,High,1,5,1,0,5,Spice Processing,Medium,191000,119000,92
+Rural,290000,6,High,0,2,1,1,12,Bakery,Medium,107000,70000,88
+Rural,310000,4,Medium,1,4,1,1,15,Dairy Processing,Low,103000,61000,60
+Rural,335000,5,Medium,1,2,1,1,6,Dairy Processing,High,162000,116000,98
+Semi-Urban,410000,7,High,1,3,1,1,2,Food Processing,Medium,168000,120000,98
+Semi-Urban,130000,5,Medium,0,2,1,1,5,Grocery Retail,Medium,52000,34000,84
+Rural,300000,7,High,1,4,1,1,7,Bakery,High,143000,101000,98
+Rural,80000,4,Low,0,2,1,1,6,Agri Input Shop,Low,28000,18000,58
+Semi-Urban,55000,4,High,0,2,1,1,1,Tailoring,High,24000,15000,98
+Rural,440000,5,High,1,6,1,1,12,Spice Processing,Low,130000,76000,78
+Rural,105000,4,Medium,1,3,1,0,7,Poultry,High,48000,34000,87
+Rural,320000,5,High,1,5,0,1,10,Spice Processing,High,145000,87000,93
+Rural,155000,4,High,0,1,1,1,8,Handicraft,Medium,60000,37000,88
+Semi-Urban,170000,3,Medium,1,2,1,1,3,Dairy Processing,High,71000,42000,98
+Rural,50000,1,Medium,1,2,1,0,5,Tailoring,Medium,20000,13000,71
+Rural,105000,3,Medium,0,4,1,1,5,Handicraft,High,44000,30000,90
+Semi-Urban,195000,5,Medium,0,2,1,1,5,Bakery,Medium,78000,55000,82
+Rural,165000,4,Medium,1,2,1,0,14,Poultry,Low,58000,39000,57
+Rural,115000,3,Medium,0,1,1,1,10,Grocery Retail,Medium,44000,27000,70
+Rural,95000,1,Medium,0,2,1,1,3,Tailoring,Medium,36000,24000,76
+Rural,75000,4,Medium,0,2,1,1,9,Tailoring,Medium,30000,18000,74
+Rural,235000,3,High,1,2,0,1,12,Dairy Processing,Low,73000,50000,67
+Rural,435000,9,High,1,6,1,1,4,Fruit & Vegetable Processing,High,201000,144000,98
+Rural,55000,4,Medium,0,3,1,1,16,Tailoring,Medium,22000,14000,65
+Semi-Urban,385000,9,High,1,6,1,1,4,Food Processing,Medium,134000,81000,98
+Rural,205000,3,Medium,1,2,1,1,3,Poultry,Medium,79000,49000,87
+Rural,150000,1,Medium,1,2,0,1,4,Poultry,High,65000,46000,80
+Semi-Urban,420000,7,High,1,3,1,0,4,Food Processing,High,194000,119000,98
+Rural,75000,3,Low,0,1,1,1,16,Agri Input Shop,Low,22000,13000,45
+Semi-Urban,370000,6,High,1,4,1,1,3,Food Processing,High,160000,110000,98
+Semi-Urban,300000,6,High,1,5,1,1,5,Food Processing,High,136000,84000,98
+Rural,180000,4,Low,1,1,0,0,8,Poultry,Low,57000,38000,49
+Rural,455000,10,High,1,4,1,1,9,Spice Processing,Medium,173000,123000,98
+Rural,150000,2,Low,1,2,1,1,3,Poultry,Low,50000,35000,66
+Semi-Urban,380000,10,High,1,7,1,1,1,Fruit & Vegetable Processing,High,167000,116000,98
+Rural,335000,7,High,1,2,1,1,3,Dairy Processing,High,162000,96000,98
+Rural,125000,6,High,0,4,0,1,11,Handicraft,Low,38000,24000,69
+Semi-Urban,345000,9,High,1,6,1,1,4,Spice Processing,High,146000,86000,98
+Rural,140000,2,Medium,0,1,1,1,14,Grocery Retail,Low,41000,25000,52
+Rural,150000,4,Medium,1,1,1,1,12,Handicraft,Low,51000,31000,65
+Rural,265000,7,High,0,2,1,1,9,Dairy Processing,Medium,105000,64000,92
+Semi-Urban,400000,6,High,0,4,1,1,1,Fruit & Vegetable Processing,High,177000,125000,98
+Semi-Urban,570000,11,High,1,4,1,1,1,Fruit & Vegetable Processing,High,249000,172000,98
+Rural,135000,5,Low,0,1,1,1,4,Grocery Retail,Medium,48000,28000,78
+Rural,385000,8,High,0,6,1,1,4,Spice Processing,High,188000,115000,98
+Rural,95000,3,Medium,0,2,1,1,13,Agri Input Shop,Low,27000,17000,60
+Semi-Urban,415000,4,High,1,5,1,1,1,Food Processing,High,184000,121000,98
+Rural,420000,8,High,1,3,1,1,13,Spice Processing,Low,124000,87000,86
+Rural,120000,3,Low,0,2,0,0,16,Agri Input Shop,Low,38000,26000,45
+Rural,430000,10,High,1,7,1,1,3,Fruit & Vegetable Processing,High,181000,116000,98
+Rural,150000,2,Medium,1,3,0,0,3,Poultry,Medium,61000,39000,67
+Rural,315000,4,Medium,1,4,1,1,8,Dairy Processing,High,149000,102000,90
+Rural,100000,5,Low,0,1,1,1,4,Grocery Retail,Medium,37000,23000,76
+Semi-Urban,235000,7,High,1,4,1,1,3,Dairy Processing,Medium,86000,59000,98
+Semi-Urban,320000,5,Medium,1,2,1,0,3,Bakery,Medium,129000,85000,83
+Semi-Urban,210000,8,Medium,0,3,1,1,3,Bakery,Medium,87000,56000,94
+Rural,265000,9,High,1,5,1,1,11,Spice Processing,Low,87000,62000,90
+Rural,480000,8,High,1,8,0,1,3,Fruit & Vegetable Processing,High,233000,152000,98
+Semi-Urban,440000,11,High,1,6,1,1,1,Fruit & Vegetable Processing,High,215000,127000,98
+Semi-Urban,410000,4,High,1,6,1,1,1,Food Processing,High,174000,101000,98
+Semi-Urban,390000,7,High,1,6,1,1,2,Food Processing,High,165000,109000,98
+Semi-Urban,365000,7,High,1,4,1,1,2,Food Processing,High,167000,117000,98
+Rural,125000,1,Low,0,3,1,1,17,Poultry,Low,37000,23000,45
+Rural,140000,6,High,1,4,1,0,3,Handicraft,High,67000,42000,98
+Semi-Urban,80000,2,High,0,2,1,1,4,Tailoring,Medium,31000,22000,86
+Rural,70000,4,High,0,1,1,1,9,Handicraft,Medium,26000,16000,88
+Rural,330000,4,High,1,4,1,1,17,Dairy Processing,Low,107000,74000,66
+Rural,125000,4,High,1,2,0,1,17,Handicraft,Low,43000,25000,60
+Rural,185000,4,Medium,0,1,0,1,17,Poultry,Low,60000,41000,48
+Rural,255000,7,High,1,3,1,1,5,Dairy Processing,High,107000,73000,98
+Rural,170000,6,Medium,0,2,1,1,12,Handicraft,Medium,63000,45000,79
+Rural,135000,3,Medium,0,1,1,1,15,Poultry,Low,48000,32000,54
+Rural,75000,3,High,0,3,1,1,15,Tailoring,Medium,27000,18000,72
+Rural,165000,5,Medium,0,2,1,1,15,Handicraft,Low,50000,33000,57
+Rural,130000,3,Low,0,3,1,0,9,Poultry,Low,44000,30000,46
+Semi-Urban,355000,9,High,0,6,1,1,2,Food Processing,High,146000,89000,98
+Rural,505000,6,High,1,7,1,1,6,Fruit & Vegetable Processing,High,242000,172000,98
+Semi-Urban,400000,4,High,1,6,1,1,1,Food Processing,High,194000,131000,98
+Rural,365000,12,High,1,4,1,1,7,Fruit & Vegetable Processing,High,177000,112000,98
+Rural,135000,1,Low,0,1,1,1,4,Grocery Retail,Medium,56000,35000,66
+Semi-Urban,90000,2,Medium,0,1,1,1,1,Grocery Retail,Medium,38000,22000,82
+Semi-Urban,115000,3,Medium,0,2,1,1,1,Grocery Retail,Medium,48000,31000,86
+Semi-Urban,80000,4,Medium,1,3,1,0,1,Tailoring,Low,24000,14000,70
+Semi-Urban,380000,5,High,1,6,1,1,1,Food Processing,High,162000,109000,98
+Rural,570000,9,High,1,7,1,1,3,Fruit & Vegetable Processing,High,267000,190000,98
+Rural,200000,1,Medium,1,2,1,0,16,Poultry,Low,63000,38000,45
+Rural,330000,6,Medium,1,4,1,1,8,Dairy Processing,Medium,131000,84000,87
+Rural,110000,3,Low,0,2,1,1,10,Poultry,Low,36000,22000,54
+Semi-Urban,290000,5,High,0,4,1,1,5,Dairy Processing,High,129000,89000,98
+Semi-Urban,215000,4,Medium,1,2,1,1,5,Bakery,High,92000,61000,96
+Rural,200000,2,Low,1,2,1,1,12,Poultry,Low,69000,43000,53
+Rural,90000,6,Medium,0,3,1,1,10,Handicraft,Low,26000,18000,70
+Rural,75000,6,High,1,2,1,1,6,Handicraft,High,35000,21000,98
+Rural,405000,7,High,1,5,1,1,6,Spice Processing,High,197000,116000,98
+Semi-Urban,430000,5,High,1,6,1,1,5,Food Processing,High,190000,115000,98
+Semi-Urban,160000,7,High,1,2,1,1,3,Dairy Processing,High,70000,49000,98
+Rural,225000,7,Medium,1,3,1,1,7,Dairy Processing,High,99000,64000,98
+Semi-Urban,250000,5,High,1,6,1,1,2,Food Processing,High,112000,73000,98
+Rural,75000,3,Medium,0,3,1,1,17,Tailoring,Low,25000,16000,52
+Semi-Urban,485000,8,High,1,5,1,0,3,Spice Processing,Medium,172000,111000,98
+Rural,65000,2,Medium,0,1,1,1,16,Tailoring,Medium,23000,15000,60
+Semi-Urban,100000,2,High,1,1,1,1,2,Tailoring,Medium,36000,25000,98
+Rural,70000,2,High,1,2,1,1,3,Tailoring,Medium,29000,20000,97
+Semi-Urban,315000,10,High,1,6,1,1,2,Food Processing,High,143000,94000,98
+Rural,85000,4,High,0,3,1,1,10,Tailoring,Medium,29000,17000,82
+Rural,140000,6,High,1,2,1,1,14,Handicraft,Medium,56000,36000,89
+Rural,80000,5,Medium,0,1,1,1,8,Grocery Retail,Medium,30000,18000,78
+Semi-Urban,260000,5,Medium,0,4,1,1,4,Bakery,Low,79000,48000,75
+Rural,285000,3,High,1,3,1,1,16,Dairy Processing,Low,82000,48000,70
+Rural,240000,6,Medium,1,4,1,1,15,Dairy Processing,Medium,101000,69000,76
+Rural,265000,3,High,0,3,1,1,10,Bakery,High,120000,83000,89
+Semi-Urban,260000,4,High,1,6,1,1,2,Food Processing,High,119000,78000,98
+Rural,110000,3,Low,1,3,1,1,4,Poultry,Medium,37000,21000,75
+Rural,255000,5,High,1,6,1,1,8,Food Processing,Medium,88000,53000,95
+Semi-Urban,160000,3,High,1,3,1,1,1,Dairy Processing,Medium,55000,33000,97
+Rural,275000,3,Medium,1,3,1,1,16,Dairy Processing,Low,95000,63000,55
+Rural,230000,8,High,0,5,1,0,14,Bakery,Low,80000,58000,71
+Semi-Urban,120000,1,High,0,2,1,1,5,Tailoring,Medium,43000,29000,85
+Semi-Urban,255000,9,High,1,3,1,1,4,Food Processing,Medium,96000,62000,98
+Semi-Urban,510000,8,High,1,6,1,1,1,Fruit & Vegetable Processing,High,215000,127000,98
+Semi-Urban,295000,7,Medium,1,4,1,1,5,Bakery,Low,88000,56000,84
+Rural,80000,4,Medium,1,4,0,1,3,Handicraft,Medium,30000,19000,81
+Semi-Urban,270000,5,Medium,1,4,1,1,4,Dairy Processing,High,127000,89000,98
+Semi-Urban,265000,7,Medium,1,3,1,1,5,Bakery,High,113000,68000,98
+Rural,345000,6,High,1,3,1,1,9,Food Processing,Low,110000,65000,83
+Rural,335000,4,Medium,1,3,1,1,12,Dairy Processing,Low,120000,79000,64
+Rural,110000,3,Low,0,2,1,1,5,Poultry,Medium,38000,24000,66
+Semi-Urban,280000,3,High,1,4,1,1,2,Bakery,Medium,116000,71000,96
+Semi-Urban,490000,6,High,0,3,1,1,3,Spice Processing,High,240000,154000,98
+Rural,175000,3,Medium,1,4,1,1,6,Dairy Processing,Medium,66000,42000,84
+Rural,290000,5,High,1,5,1,1,13,Food Processing,Low,84000,53000,75
+Semi-Urban,80000,2,Medium,0,2,1,1,5,Grocery Retail,Medium,29000,19000,78
+Rural,385000,9,High,1,6,1,1,6,Fruit & Vegetable Processing,High,174000,109000,98
+Rural,75000,2,Low,0,2,1,0,7,Agri Input Shop,Low,25000,16000,48
+Rural,80000,4,High,0,3,1,1,7,Tailoring,High,39000,23000,98
+Rural,85000,2,Low,1,1,1,1,17,Agri Input Shop,Medium,29000,17000,51
+Rural,340000,9,High,1,3,1,1,13,Food Processing,Medium,132000,83000,96
+Rural,160000,3,Medium,1,1,1,0,16,Handicraft,Low,50000,29000,49
+Rural,160000,6,Medium,0,1,1,1,9,Handicraft,Medium,62000,36000,78
+Semi-Urban,80000,3,Medium,0,2,1,1,2,Grocery Retail,Medium,30000,18000,81
+Rural,90000,1,High,0,1,1,1,8,Tailoring,High,43000,28000,89
+Rural,395000,5,High,1,6,0,1,16,Spice Processing,Low,118000,74000,67
+Semi-Urban,145000,2,Medium,0,2,1,1,1,Grocery Retail,Medium,53000,36000,80
+Rural,105000,4,Medium,0,2,0,0,10,Agri Input Shop,Medium,39000,24000,56
+Rural,130000,2,Medium,0,2,1,1,15,Grocery Retail,Low,40000,28000,54
+Rural,130000,2,Low,0,1,1,0,8,Agri Input Shop,Low,45000,28000,45
+Rural,265000,5,High,0,2,1,0,5,Dairy Processing,High,117000,77000,95
+Rural,180000,5,High,0,1,1,1,9,Handicraft,Medium,67000,40000,87
+Rural,210000,5,Medium,1,3,1,1,17,Dairy Processing,Low,67000,44000,61
+Rural,535000,8,High,1,5,1,1,13,Fruit & Vegetable Processing,Medium,206000,142000,96
+Semi-Urban,85000,4,Medium,0,1,1,1,2,Tailoring,Medium,32000,20000,87
+Rural,395000,7,High,1,5,1,1,3,Spice Processing,High,166000,102000,98
+Rural,100000,2,Low,0,2,1,0,5,Agri Input Shop,Medium,36000,22000,57
+Rural,295000,6,High,1,3,1,1,8,Spice Processing,High,123000,73000,98
+Rural,75000,4,Medium,0,1,1,1,10,Agri Input Shop,High,36000,26000,81
+Rural,425000,10,High,1,5,1,1,15,Food Processing,Low,144000,88000,79
+Semi-Urban,90000,1,Medium,0,1,0,1,4,Grocery Retail,Medium,35000,21000,69
+Semi-Urban,430000,9,High,1,8,1,1,3,Fruit & Vegetable Processing,Medium,151000,91000,98
+Rural,90000,2,Medium,1,4,1,1,12,Handicraft,Low,27000,17000,62
+Rural,60000,2,Low,0,2,0,1,11,Agri Input Shop,Low,20000,12000,45
+Semi-Urban,255000,5,High,1,5,1,1,2,Spice Processing,High,121000,85000,98
+Semi-Urban,565000,7,High,1,5,1,1,1,Fruit & Vegetable Processing,High,262000,160000,98
+Rural,110000,3,Medium,1,3,0,1,10,Poultry,Medium,46000,32000,67
+Rural,195000,1,Low,1,2,1,0,8,Poultry,Low,68000,49000,45
+Rural,190000,5,Medium,1,2,1,1,11,Dairy Processing,Low,60000,41000,73
+Semi-Urban,175000,4,High,1,4,1,1,1,Handicraft,High,74000,49000,98
+Semi-Urban,265000,6,High,1,6,1,1,5,Food Processing,High,125000,79000,98
+Rural,385000,5,High,1,5,1,1,4,Spice Processing,High,172000,101000,98
+Rural,65000,3,Medium,0,1,1,1,15,Grocery Retail,Low,20000,14000,56
+Semi-Urban,120000,3,Low,0,1,1,1,2,Grocery Retail,Medium,44000,31000,72
+Rural,345000,9,High,1,3,1,1,13,Spice Processing,Medium,141000,96000,93
+Rural,55000,2,Medium,0,1,1,1,15,Tailoring,Low,17000,11000,53
+Rural,255000,9,High,1,4,1,1,10,Food Processing,High,106000,68000,98
+Semi-Urban,555000,6,High,1,6,1,1,4,Fruit & Vegetable Processing,Medium,210000,151000,98
+Rural,105000,2,Low,0,1,1,0,11,Agri Input Shop,Low,33000,20000,45
+Rural,110000,1,High,0,3,1,1,11,Tailoring,Low,34000,22000,67
+Rural,100000,1,Medium,1,1,1,0,12,Agri Input Shop,Low,31000,19000,52
+Rural,110000,3,Low,1,1,1,1,7,Agri Input Shop,Low,31000,22000,59
+Semi-Urban,60000,5,High,1,1,1,1,1,Tailoring,High,29000,18000,98
+Rural,225000,6,High,1,4,1,1,4,Dairy Processing,High,101000,70000,98
+Rural,120000,1,Medium,1,2,1,1,9,Poultry,Medium,50000,36000,72
+Rural,75000,4,Low,0,1,1,0,9,Agri Input Shop,Medium,28000,18000,59
+Semi-Urban,95000,1,Medium,0,3,1,1,2,Tailoring,Low,33000,22000,70
+Semi-Urban,95000,2,High,0,1,1,1,2,Tailoring,Low,32000,21000,84
+Semi-Urban,255000,8,Medium,0,5,1,1,2,Bakery,Medium,97000,62000,94
+Rural,165000,4,Medium,0,2,1,1,8,Dairy Processing,Medium,63000,38000,77
+Rural,165000,2,High,1,1,1,1,4,Handicraft,Low,49000,34000,83
+Semi-Urban,260000,7,Medium,1,5,1,1,1,Bakery,Medium,104000,65000,98
+Semi-Urban,265000,5,High,1,4,1,1,3,Bakery,High,119000,81000,98
+Semi-Urban,455000,7,High,1,4,1,1,4,Spice Processing,High,199000,128000,98
+Rural,195000,1,Medium,0,2,1,1,8,Poultry,Medium,67000,43000,71
+Rural,100000,4,High,0,3,1,1,12,Tailoring,Low,32000,19000,70
+Rural,165000,2,Low,0,2,1,0,3,Poultry,Medium,59000,38000,59
+Rural,250000,5,High,1,5,1,1,16,Food Processing,Low,85000,59000,75
+Semi-Urban,425000,8,High,1,5,1,1,5,Spice Processing,Medium,149000,93000,98
+Rural,115000,4,High,1,1,1,1,13,Handicraft,Medium,42000,29000,86
+Rural,115000,3,Low,1,2,1,1,13,Poultry,Medium,48000,33000,61
+Rural,125000,4,Low,0,1,1,1,5,Grocery Retail,Low,40000,26000,62
+Rural,90000,2,Low,0,1,1,1,12,Agri Input Shop,Low,27000,18000,47
+Semi-Urban,350000,5,High,1,3,1,1,4,Food Processing,High,156000,105000,98
+Rural,260000,4,High,0,4,1,1,8,Dairy Processing,High,125000,78000,98
+Rural,75000,4,High,1,3,1,0,10,Handicraft,Medium,27000,17000,81
+Semi-Urban,400000,7,High,1,6,1,1,1,Food Processing,High,166000,110000,98
+Rural,65000,2,Low,1,2,1,0,4,Agri Input Shop,Low,20000,12000,55
+Semi-Urban,395000,10,High,1,6,1,1,2,Spice Processing,High,193000,135000,98
+Rural,85000,1,Medium,0,2,1,1,9,Agri Input Shop,Medium,30000,18000,68
+Rural,205000,7,High,1,2,1,1,10,Bakery,Medium,78000,46000,94
+Rural,90000,2,Medium,1,1,1,0,14,Agri Input Shop,Low,29000,20000,49
+Semi-Urban,270000,4,High,1,2,1,1,4,Bakery,High,117000,71000,98
+Semi-Urban,305000,6,High,0,5,1,1,5,Spice Processing,High,146000,89000,98
+Rural,595000,12,High,1,4,1,1,3,Fruit & Vegetable Processing,High,270000,191000,98
+Semi-Urban,200000,8,High,0,3,1,1,3,Bakery,Medium,72000,45000,98
+Semi-Urban,335000,4,Medium,1,3,1,1,3,Dairy Processing,Medium,139000,98000,87
+Rural,90000,2,Medium,0,1,0,1,5,Agri Input Shop,Medium,35000,22000,69
+Rural,70000,2,Low,0,2,1,1,12,Agri Input Shop,Low,23000,14000,49
+Semi-Urban,265000,8,Medium,1,3,1,1,1,Dairy Processing,Medium,103000,63000,98
+Rural,130000,3,Low,0,2,1,1,11,Grocery Retail,Medium,53000,34000,60
+Rural,120000,1,High,0,2,1,1,9,Tailoring,Medium,48000,34000,76
+Rural,365000,12,High,0,8,1,1,7,Fruit & Vegetable Processing,Medium,133000,81000,96
+Rural,155000,6,High,1,4,1,1,4,Handicraft,High,76000,49000,98
+Semi-Urban,245000,8,Medium,0,4,1,1,1,Bakery,Medium,87000,51000,93
+Semi-Urban,175000,6,Medium,0,4,1,1,1,Dairy Processing,Medium,68000,45000,93
+Semi-Urban,315000,10,High,0,5,1,1,4,Spice Processing,High,136000,97000,98
+Semi-Urban,220000,7,Medium,1,2,1,1,3,Bakery,Medium,78000,50000,97
+Rural,70000,5,High,0,3,1,1,7,Tailoring,High,34000,20000,98
+Semi-Urban,275000,6,High,0,6,1,1,2,Spice Processing,High,128000,87000,98
+Rural,360000,4,High,0,6,1,0,7,Food Processing,High,172000,101000,89
+Rural,85000,2,Low,0,2,1,0,5,Agri Input Shop,Low,30000,18000,47
+Rural,315000,6,High,1,5,1,1,7,Food Processing,High,142000,88000,98
+Semi-Urban,250000,4,High,0,4,1,1,1,Bakery,High,120000,79000,98
+Rural,55000,3,Medium,0,1,1,0,5,Tailoring,Medium,21000,14000,73
+Rural,570000,7,High,1,7,1,1,17,Fruit & Vegetable Processing,Low,176000,110000,76
+Rural,205000,8,High,0,3,1,1,14,Bakery,Medium,74000,50000,89
+Rural,170000,4,High,1,2,1,1,14,Dairy Processing,Medium,69000,44000,82
+Rural,180000,3,Low,1,1,1,0,10,Poultry,Medium,62000,42000,57
+Semi-Urban,280000,3,Medium,1,2,1,0,3,Bakery,Medium,105000,65000,80
+Rural,80000,1,Medium,1,2,1,1,3,Agri Input Shop,Medium,29000,19000,85
+Rural,80000,4,Low,0,2,1,0,5,Agri Input Shop,Medium,33000,23000,66
+Rural,195000,7,High,1,3,1,1,15,Bakery,Low,59000,39000,80
+Rural,385000,8,High,1,6,1,1,15,Spice Processing,Low,113000,74000,80
+Rural,155000,3,Low,0,3,1,1,16,Poultry,Medium,63000,43000,50
+Rural,315000,7,Medium,1,3,1,1,4,Dairy Processing,High,131000,84000,98
+Semi-Urban,200000,6,High,1,5,1,1,4,Bakery,High,93000,57000,98
+Semi-Urban,280000,8,High,1,5,1,1,2,Spice Processing,High,118000,73000,98
+Rural,110000,3,Medium,0,1,1,0,8,Agri Input Shop,High,48000,35000,75
+Rural,135000,1,Medium,0,1,1,1,8,Agri Input Shop,Low,39000,27000,60
+Semi-Urban,60000,4,Medium,0,3,1,1,3,Tailoring,Medium,21000,14000,86
+Semi-Urban,245000,8,Medium,0,3,1,1,1,Bakery,Medium,101000,72000,97
+Rural,190000,2,Medium,1,2,1,1,13,Poultry,Low,53000,32000,61
+Semi-Urban,150000,3,Low,0,1,1,1,3,Grocery Retail,Low,53000,33000,62
+Rural,140000,4,Low,0,1,1,1,12,Poultry,Medium,55000,36000,61
+Rural,120000,2,Medium,0,1,1,1,9,Agri Input Shop,Medium,42000,27000,68
+Rural,140000,1,Low,0,1,1,1,5,Agri Input Shop,Low,49000,33000,55
+Semi-Urban,390000,4,High,1,4,1,1,3,Food Processing,Medium,152000,92000,97
+Rural,105000,2,Low,0,2,1,0,8,Agri Input Shop,Medium,43000,27000,55
+Rural,340000,6,Medium,1,4,1,1,10,Dairy Processing,Medium,129000,91000,82
+Rural,155000,5,High,0,4,1,1,17,Handicraft,Low,52000,34000,68
+Rural,245000,5,Medium,0,3,0,0,4,Bakery,Medium,88000,62000,68
+Rural,110000,3,Medium,0,3,1,1,7,Poultry,Low,37000,23000,64
+Rural,80000,2,Medium,1,2,1,1,5,Handicraft,Medium,31000,19000,79
+Rural,480000,9,High,1,6,1,1,7,Spice Processing,High,199000,116000,98
+Rural,100000,4,Low,1,1,0,1,6,Grocery Retail,Low,32000,22000,55
+Rural,325000,4,Medium,1,4,1,1,14,Dairy Processing,Low,97000,57000,63
+Rural,155000,3,Low,0,2,1,1,6,Poultry,Medium,56000,33000,65
+Rural,105000,3,Medium,0,4,1,1,14,Handicraft,Medium,44000,32000,68
+Rural,65000,2,Medium,0,2,1,0,8,Grocery Retail,Medium,24000,16000,62
+Rural,405000,8,High,1,5,1,1,3,Food Processing,High,169000,104000,98
+Rural,170000,4,High,0,3,1,1,9,Dairy Processing,Low,59000,37000,73
+Rural,175000,6,Medium,0,3,1,1,12,Dairy Processing,Medium,70000,42000,75
+Semi-Urban,265000,9,High,1,5,0,1,5,Food Processing,High,117000,82000,98
+Semi-Urban,215000,4,High,1,5,1,1,5,Bakery,High,92000,63000,98
+Semi-Urban,285000,4,High,1,6,1,1,3,Food Processing,High,117000,77000,98
+Rural,150000,6,Medium,1,2,1,1,9,Dairy Processing,Medium,53000,33000,85
+Rural,265000,7,High,1,2,1,1,4,Dairy Processing,High,122000,77000,98
+Rural,125000,3,Medium,0,2,1,1,13,Handicraft,Medium,49000,29000,65
+Rural,125000,2,Medium,0,2,1,0,9,Agri Input Shop,Medium,44000,31000,62
+Rural,85000,1,Low,0,1,0,1,4,Grocery Retail,Low,26000,15000,50
+Semi-Urban,375000,6,High,1,5,1,0,3,Food Processing,High,175000,121000,98
+Semi-Urban,140000,5,Low,0,1,1,1,4,Grocery Retail,Medium,57000,40000,76
+Rural,290000,4,High,1,4,1,1,5,Food Processing,High,119000,80000,98
+Rural,290000,10,High,1,6,1,1,12,Spice Processing,Medium,113000,68000,94
+Semi-Urban,180000,6,High,1,2,1,1,4,Dairy Processing,High,86000,52000,98
+Rural,70000,1,Low,1,1,1,0,3,Agri Input Shop,Low,22000,16000,54
+Rural,100000,2,Medium,0,3,1,1,6,Handicraft,Medium,38000,25000,72
+Rural,100000,4,Medium,0,1,1,0,7,Agri Input Shop,Low,33000,20000,63
+Rural,65000,2,Low,0,1,1,0,6,Agri Input Shop,Low,21000,14000,45
+Rural,105000,2,Medium,0,1,1,0,16,Agri Input Shop,Low,37000,22000,45
+Rural,115000,3,Medium,0,2,1,1,11,Grocery Retail,Medium,46000,29000,70
+Rural,310000,6,High,1,4,1,1,17,Food Processing,Low,107000,76000,74
+Semi-Urban,485000,9,High,1,8,1,1,1,Fruit & Vegetable Processing,High,215000,135000,98
+Semi-Urban,310000,7,High,1,4,1,1,2,Spice Processing,High,130000,90000,98
+Rural,125000,3,Medium,0,2,1,1,4,Poultry,Medium,45000,27000,80
+Rural,120000,1,Medium,0,2,1,0,3,Agri Input Shop,High,58000,41000,80
+Rural,295000,4,High,1,4,1,1,17,Bakery,Low,89000,58000,67
+Rural,70000,3,Low,0,2,1,1,12,Grocery Retail,Low,22000,13000,50
+Rural,90000,5,Medium,1,3,1,1,6,Handicraft,High,38000,25000,98
+Rural,205000,3,Medium,1,3,1,0,8,Poultry,High,97000,63000,81
+Rural,570000,10,High,1,5,1,1,11,Fruit & Vegetable Processing,Medium,220000,144000,95
+Rural,205000,3,Medium,0,4,1,1,14,Bakery,Medium,70000,48000,68
+Rural,465000,6,High,0,8,1,1,10,Fruit & Vegetable Processing,High,193000,135000,98
+Rural,165000,4,Medium,1,2,1,1,9,Poultry,Medium,61000,37000,78
+Rural,65000,3,Medium,1,2,1,0,17,Agri Input Shop,Low,22000,13000,51
+Rural,315000,6,Medium,1,3,1,1,6,Bakery,Low,95000,60000,79
+Rural,475000,10,High,1,7,1,1,3,Fruit & Vegetable Processing,High,215000,142000,98
+Rural,110000,5,Medium,1,4,1,1,8,Handicraft,Low,38000,24000,75
+Semi-Urban,360000,10,High,1,4,1,1,3,Food Processing,High,159000,107000,98
+Rural,295000,3,High,1,2,1,1,6,Dairy Processing,Medium,113000,80000,91
+Semi-Urban,275000,7,High,1,5,1,1,1,Food Processing,Medium,104000,68000,98
+Rural,210000,4,Medium,0,3,1,0,16,Poultry,Medium,83000,53000,59
+Semi-Urban,130000,4,Low,0,2,1,0,3,Grocery Retail,Low,40000,26000,54
+Rural,255000,4,High,1,4,1,0,7,Dairy Processing,Medium,101000,63000,87
+Semi-Urban,345000,10,High,1,6,1,1,5,Spice Processing,High,152000,99000,98
+Rural,130000,5,High,1,1,1,1,15,Handicraft,Low,43000,25000,75
+Semi-Urban,385000,5,High,1,6,1,0,3,Spice Processing,High,185000,113000,98
+Rural,215000,7,High,1,5,1,1,6,Bakery,Medium,85000,51000,98
+Rural,310000,6,High,0,2,0,1,15,Dairy Processing,Medium,110000,64000,71
+Semi-Urban,360000,6,High,1,3,1,1,4,Spice Processing,High,174000,114000,98
+Rural,450000,5,High,0,6,1,1,16,Spice Processing,Low,127000,87000,69
+Semi-Urban,570000,10,High,1,6,1,1,3,Fruit & Vegetable Processing,Medium,206000,144000,98
+Semi-Urban,395000,4,High,1,4,1,1,3,Food Processing,High,176000,123000,98
+Semi-Urban,400000,9,High,0,6,1,1,5,Fruit & Vegetable Processing,High,188000,115000,98
+Rural,175000,4,High,1,2,1,1,8,Dairy Processing,Low,56000,33000,81
+Rural,180000,4,High,1,3,1,1,13,Dairy Processing,Low,57000,34000,75
+Rural,145000,2,Low,0,2,1,1,13,Poultry,Medium,52000,31000,57
+Semi-Urban,460000,8,High,1,5,1,1,1,Fruit & Vegetable Processing,High,197000,133000,98
+Semi-Urban,110000,3,High,0,2,1,1,3,Tailoring,Low,37000,23000,82
+Semi-Urban,360000,10,High,0,3,1,1,4,Food Processing,High,165000,107000,98
+Rural,190000,4,High,1,4,1,1,15,Dairy Processing,Low,59000,36000,74
+Rural,145000,1,Low,1,1,0,0,9,Poultry,Low,41000,24000,45
+Semi-Urban,580000,12,High,1,8,1,1,4,Fruit & Vegetable Processing,High,242000,169000,98
+Semi-Urban,290000,4,High,1,5,1,1,5,Food Processing,High,120000,86000,98
+Semi-Urban,440000,10,High,1,4,1,1,5,Fruit & Vegetable Processing,High,213000,149000,98
+Rural,430000,8,High,1,3,1,1,16,Spice Processing,Low,123000,81000,80
+Rural,155000,1,Low,1,1,1,0,16,Poultry,Low,50000,29000,45
+Semi-Urban,370000,8,High,1,5,1,1,4,Food Processing,High,171000,107000,98
+Rural,95000,4,Medium,0,2,1,0,6,Agri Input Shop,Medium,39000,25000,73
+Semi-Urban,300000,4,High,1,2,1,1,2,Bakery,High,132000,80000,98
+Semi-Urban,250000,5,High,0,5,1,0,1,Bakery,High,114000,81000,98
+Semi-Urban,345000,5,High,1,4,1,1,3,Food Processing,High,148000,87000,98
+Semi-Urban,400000,10,High,1,6,1,1,3,Fruit & Vegetable Processing,High,190000,115000,98
+Rural,165000,3,Low,1,3,1,1,12,Poultry,Low,52000,35000,52
+Rural,275000,5,Medium,1,4,1,1,15,Bakery,Medium,113000,76000,76
+Rural,205000,4,Low,1,2,1,1,16,Poultry,Low,62000,41000,50
+Rural,285000,7,High,1,5,1,1,16,Bakery,Low,95000,67000,75
+Semi-Urban,395000,9,High,1,4,1,1,1,Spice Processing,High,189000,118000,98
+Rural,445000,9,High,1,6,1,1,16,Fruit & Vegetable Processing,Low,135000,84000,80
+Semi-Urban,340000,9,High,0,4,1,1,4,Spice Processing,High,150000,105000,98
+Rural,215000,6,High,1,2,1,1,14,Bakery,Low,60000,36000,79
+Rural,95000,4,Low,0,1,1,1,3,Agri Input Shop,Low,33000,19000,65
+Rural,100000,4,Medium,1,2,1,1,6,Agri Input Shop,High,42000,30000,95
+Rural,440000,5,High,1,3,1,1,12,Spice Processing,Medium,152000,109000,88
+Rural,105000,1,Low,1,1,0,1,8,Agri Input Shop,Low,38000,24000,45
+Rural,205000,4,Medium,1,3,1,1,17,Bakery,Low,62000,40000,60
+Rural,370000,6,High,1,4,1,1,12,Food Processing,Low,114000,74000,81
+Rural,430000,6,High,1,4,1,1,4,Spice Processing,High,188000,112000,98
+Semi-Urban,85000,4,Low,0,1,1,1,5,Grocery Retail,Low,28000,18000,62
+Semi-Urban,555000,6,High,1,8,1,1,1,Fruit & Vegetable Processing,High,263000,171000,98
+Rural,135000,3,Low,0,2,1,0,16,Agri Input Shop,Medium,48000,28000,45
+Rural,135000,4,Medium,0,1,1,0,16,Agri Input Shop,Low,42000,25000,48
+Rural,265000,4,Medium,1,3,1,1,5,Dairy Processing,High,115000,75000,96
+Semi-Urban,80000,1,Medium,0,1,1,1,1,Tailoring,Low,26000,15000,71
+Semi-Urban,270000,5,High,1,5,1,1,1,Spice Processing,Medium,103000,61000,98
+Rural,165000,2,High,1,4,1,1,7,Handicraft,High,70000,44000,98
+Rural,135000,2,Medium,0,2,1,0,11,Agri Input Shop,Medium,56000,35000,59
+Semi-Urban,550000,7,High,1,5,1,1,3,Fruit & Vegetable Processing,Medium,215000,148000,98
+Rural,85000,3,Low,0,1,1,1,6,Grocery Retail,Low,26000,16000,57
+Rural,110000,3,Medium,0,2,1,0,14,Agri Input Shop,Medium,38000,24000,58
+Semi-Urban,115000,2,Low,0,2,1,0,5,Grocery Retail,Low,37000,23000,50
+Rural,265000,8,Medium,1,4,1,1,16,Bakery,Low,89000,64000,72
+Rural,305000,6,Medium,1,5,1,1,7,Bakery,Medium,113000,74000,87
+Semi-Urban,115000,2,Medium,0,3,1,1,4,Tailoring,Medium,44000,29000,80
+Rural,285000,9,High,1,4,1,1,8,Food Processing,Medium,118000,82000,98
+Rural,115000,2,High,1,4,0,0,3,Handicraft,Medium,40000,28000,79
+Rural,330000,3,Medium,1,4,1,1,7,Dairy Processing,High,145000,92000,91
+Rural,65000,4,Medium,0,2,1,1,9,Tailoring,Medium,27000,17000,73
+Rural,190000,2,Medium,0,3,0,0,9,Poultry,Medium,65000,47000,54
+Rural,285000,4,High,1,2,1,1,16,Dairy Processing,Low,90000,59000,71
+Semi-Urban,350000,5,High,1,4,1,1,1,Spice Processing,High,147000,94000,98
+Rural,465000,6,High,1,5,1,1,16,Fruit & Vegetable Processing,Medium,192000,137000,85
+Rural,195000,4,Low,0,3,1,1,12,Poultry,Low,60000,38000,52
+Rural,160000,1,Medium,1,1,1,0,9,Poultry,Medium,60000,39000,64
+Rural,90000,3,Medium,0,2,1,1,6,Tailoring,High,40000,23000,86
+Semi-Urban,420000,10,High,1,3,1,1,4,Food Processing,Medium,149000,93000,98
+Semi-Urban,85000,5,Medium,0,1,0,1,5,Tailoring,Medium,35000,24000,73
+Semi-Urban,395000,9,High,1,6,1,1,2,Spice Processing,High,164000,102000,98
+Rural,85000,2,Medium,0,1,1,1,13,Agri Input Shop,Medium,33000,22000,62
+Rural,70000,4,Low,0,2,1,0,8,Agri Input Shop,Low,20000,12000,50
+Rural,305000,5,High,1,4,1,1,8,Food Processing,Medium,118000,80000,94
+Semi-Urban,425000,5,High,1,3,1,1,4,Spice Processing,High,205000,142000,98
+Semi-Urban,320000,5,High,0,4,1,1,2,Food Processing,High,156000,93000,98
+Rural,105000,3,Low,1,1,1,1,5,Grocery Retail,Low,36000,25000,66
+Rural,80000,1,Low,0,2,0,1,12,Agri Input Shop,Medium,28000,20000,45
+Rural,155000,3,Low,1,3,1,1,15,Poultry,Low,45000,30000,49
+Rural,175000,4,Medium,0,2,1,1,12,Handicraft,Medium,73000,51000,69
+Semi-Urban,455000,6,High,1,7,1,1,4,Fruit & Vegetable Processing,High,209000,147000,98
+Semi-Urban,455000,8,High,1,5,1,1,2,Spice Processing,High,198000,127000,98
+Semi-Urban,275000,5,High,1,4,0,1,1,Dairy Processing,High,117000,79000,98
+Semi-Urban,265000,10,High,1,6,1,1,5,Food Processing,High,111000,67000,98
+Rural,515000,10,High,1,4,0,1,11,Fruit & Vegetable Processing,Low,150000,100000,78
+Rural,260000,3,Medium,1,2,0,1,3,Dairy Processing,Medium,92000,66000,77
+Rural,440000,7,High,1,4,1,1,3,Fruit & Vegetable Processing,High,183000,113000,98
+Rural,115000,6,High,1,1,1,1,8,Handicraft,High,56000,37000,98
+Rural,325000,6,Medium,1,2,1,1,8,Dairy Processing,Medium,130000,79000,87
+Rural,110000,5,Medium,0,2,0,1,6,Tailoring,Medium,43000,28000,77
+Rural,275000,3,Medium,1,4,1,1,13,Bakery,Medium,106000,71000,69
+Rural,120000,1,High,0,1,0,1,12,Tailoring,Low,36000,24000,55
+Rural,120000,1,Low,0,1,1,0,4,Agri Input Shop,Low,36000,23000,46
+Rural,205000,8,High,1,4,1,1,10,Bakery,High,98000,65000,98
+Rural,115000,3,Medium,0,3,1,1,16,Tailoring,Low,37000,25000,54
+Rural,185000,5,Medium,1,2,1,1,8,Bakery,Medium,72000,47000,84
+Rural,190000,4,High,1,5,1,1,6,Bakery,High,83000,50000,98
+Rural,125000,1,Medium,1,1,1,1,17,Poultry,Low,38000,26000,52
+Rural,340000,8,High,1,5,1,1,7,Food Processing,Medium,116000,68000,98
+Semi-Urban,340000,5,High,1,4,1,1,1,Food Processing,High,157000,94000,98
+Rural,130000,4,Low,0,3,1,0,6,Poultry,Low,39000,25000,51
+Semi-Urban,440000,6,High,1,4,1,1,1,Fruit & Vegetable Processing,High,192000,120000,98
+Rural,125000,4,Medium,1,1,1,1,4,Grocery Retail,Medium,50000,30000,89
+Rural,570000,10,High,0,8,1,1,8,Fruit & Vegetable Processing,High,241000,149000,98
+Rural,250000,3,High,0,4,1,1,3,Dairy Processing,Medium,101000,62000,93
+Rural,325000,3,Medium,1,2,1,0,12,Dairy Processing,Medium,132000,82000,64
+Semi-Urban,190000,5,High,1,4,1,0,5,Bakery,High,87000,57000,98
+Rural,55000,3,Medium,0,3,1,1,7,Tailoring,High,24000,15000,85
+Rural,55000,4,High,0,1,1,1,8,Tailoring,Low,18000,11000,77
+Semi-Urban,420000,4,High,1,3,1,1,4,Food Processing,High,199000,136000,98
+Rural,430000,9,High,0,6,1,1,14,Spice Processing,Low,133000,87000,76
+Semi-Urban,350000,11,High,1,7,1,1,4,Fruit & Vegetable Processing,High,154000,105000,98
+Rural,100000,1,Medium,0,1,1,1,8,Agri Input Shop,Low,28000,20000,62
+Semi-Urban,160000,4,High,0,1,1,1,2,Handicraft,High,77000,48000,98
+Rural,95000,1,Medium,0,1,1,0,8,Tailoring,Medium,33000,22000,59
+Semi-Urban,175000,6,High,0,4,1,1,1,Handicraft,High,77000,46000,98
+Rural,260000,7,Medium,1,3,0,1,9,Bakery,Low,75000,45000,70
+Semi-Urban,175000,2,High,1,1,1,1,4,Handicraft,Medium,69000,48000,90
+Rural,105000,4,Low,0,2,1,0,15,Agri Input Shop,Low,37000,25000,45
+Rural,140000,2,Low,1,1,1,0,17,Poultry,Medium,50000,31000,48
+Rural,100000,2,Low,0,1,1,1,5,Agri Input Shop,Low,33000,22000,58
+Rural,100000,4,Medium,0,4,1,1,11,Handicraft,Low,35000,23000,60
+Rural,130000,4,Medium,0,1,0,0,13,Agri Input Shop,Low,44000,30000,45
+Rural,105000,1,Low,0,1,1,1,17,Grocery Retail,Medium,38000,27000,46
+Semi-Urban,260000,5,Medium,1,3,1,0,3,Bakery,High,116000,80000,92
+Semi-Urban,445000,7,High,1,8,1,1,4,Fruit & Vegetable Processing,High,188000,127000,98
+Rural,220000,2,Low,1,1,1,0,11,Poultry,Low,76000,54000,45
+Rural,95000,1,Medium,0,2,1,1,10,Tailoring,Medium,39000,27000,69
+Rural,310000,5,Medium,1,4,1,1,3,Dairy Processing,Medium,128000,78000,93
+Semi-Urban,535000,10,High,1,5,1,1,4,Fruit & Vegetable Processing,High,260000,169000,98
+Semi-Urban,155000,3,Medium,1,2,1,1,4,Dairy Processing,Medium,55000,38000,87
+Rural,220000,7,Medium,1,4,1,1,14,Bakery,Low,71000,50000,69
+Rural,175000,2,Low,1,3,1,1,3,Poultry,Medium,60000,40000,77
+Semi-Urban,395000,9,High,1,4,1,1,4,Food Processing,High,165000,100000,98
+Rural,110000,1,Medium,0,2,1,1,11,Tailoring,Low,35000,21000,55
+Semi-Urban,115000,3,Medium,0,1,0,1,2,Grocery Retail,High,54000,34000,85
+Semi-Urban,330000,8,High,1,5,1,1,2,Food Processing,High,152000,95000,98
+Rural,230000,3,Medium,1,5,1,0,5,Bakery,High,110000,64000,86
+Rural,445000,11,High,1,6,1,1,5,Fruit & Vegetable Processing,High,212000,129000,98
+Rural,95000,1,Low,0,1,1,1,14,Grocery Retail,Medium,40000,25000,50
+Rural,85000,3,Low,0,1,1,0,10,Agri Input Shop,Low,29000,17000,45
+Rural,150000,2,Medium,1,4,1,1,15,Handicraft,Low,47000,32000,58
+Rural,65000,3,Low,0,1,1,1,10,Grocery Retail,Low,22000,15000,52
+Rural,215000,5,Medium,1,2,1,1,9,Bakery,Medium,84000,51000,81
+Semi-Urban,490000,8,High,1,5,1,1,3,Spice Processing,High,225000,132000,98
+Rural,145000,5,Medium,1,2,1,1,10,Handicraft,Medium,55000,37000,79
+Rural,155000,4,Medium,0,4,1,1,5,Dairy Processing,Low,50000,30000,74
+Semi-Urban,100000,5,Medium,0,3,1,1,2,Tailoring,Medium,41000,25000,89
+Rural,285000,7,High,1,3,1,1,5,Dairy Processing,High,138000,82000,98
+Semi-Urban,70000,2,Medium,0,2,1,0,2,Grocery Retail,High,29000,20000,83
+Rural,195000,8,High,1,3,1,1,14,Dairy Processing,Medium,74000,52000,95
+Rural,210000,8,High,0,2,1,1,13,Bakery,Low,70000,43000,77
+Rural,70000,2,Medium,0,2,1,1,3,Agri Input Shop,Medium,24000,16000,79
+Rural,525000,8,High,1,7,1,1,11,Fruit & Vegetable Processing,Medium,217000,146000,98
+Rural,65000,5,Medium,0,3,1,1,16,Tailoring,Low,23000,14000,55
+Rural,315000,6,High,1,4,1,1,15,Dairy Processing,Low,95000,62000,78
+Rural,335000,3,Medium,1,2,1,1,6,Dairy Processing,High,163000,111000,90
+Semi-Urban,140000,4,Medium,0,2,1,0,4,Grocery Retail,Medium,56000,33000,73
+Semi-Urban,540000,6,High,1,7,1,1,1,Fruit & Vegetable Processing,High,253000,174000,98
+Semi-Urban,445000,4,High,1,6,1,1,4,Food Processing,High,204000,141000,98
+Rural,345000,6,Medium,1,3,1,1,15,Dairy Processing,Low,111000,73000,67
+Rural,290000,8,Medium,1,2,1,1,12,Bakery,Medium,108000,69000,83
+Semi-Urban,425000,10,High,1,6,1,1,3,Spice Processing,High,202000,120000,98
+Semi-Urban,65000,2,High,0,3,1,1,3,Tailoring,Medium,24000,16000,89
+Rural,160000,5,High,1,4,1,1,12,Dairy Processing,Low,49000,33000,77
+Rural,280000,7,High,1,4,1,1,15,Bakery,Medium,102000,61000,87
+Semi-Urban,255000,4,Medium,0,2,1,1,2,Bakery,Medium,93000,63000,85
+Rural,55000,3,Medium,0,1,1,1,16,Tailoring,Low,20000,13000,55
+Semi-Urban,445000,8,High,0,6,1,1,3,Food Processing,High,193000,132000,98
+Rural,195000,5,Medium,1,4,1,0,17,Bakery,Low,63000,38000,53
+Semi-Urban,400000,10,High,1,3,1,1,4,Spice Processing,High,164000,103000,98
+Semi-Urban,245000,7,Medium,1,2,1,1,4,Bakery,High,114000,69000,98
+Semi-Urban,195000,3,High,1,5,1,1,3,Bakery,High,80000,56000,98
+Semi-Urban,230000,3,Medium,1,3,1,1,2,Bakery,Low,76000,46000,76
+Rural,110000,2,Low,0,1,0,1,4,Agri Input Shop,Medium,39000,28000,61
+Rural,95000,4,Medium,0,2,1,0,14,Agri Input Shop,Medium,40000,27000,58
+Rural,345000,9,High,1,5,1,1,8,Food Processing,Medium,127000,81000,98
+Rural,205000,7,High,1,3,1,1,11,Dairy Processing,Medium,84000,55000,93
+Semi-Urban,210000,8,Medium,1,4,1,1,5,Bakery,Low,67000,46000,87
+Semi-Urban,460000,7,High,1,7,1,1,2,Fruit & Vegetable Processing,High,210000,127000,98
+Rural,150000,3,Medium,1,3,1,1,14,Dairy Processing,Low,54000,38000,60
+Semi-Urban,415000,6,High,1,3,1,1,1,Food Processing,High,175000,107000,98
+Rural,190000,2,Low,0,2,1,1,15,Poultry,Low,59000,40000,45
+Rural,185000,5,High,1,4,1,1,5,Dairy Processing,High,88000,58000,98
+Semi-Urban,210000,6,Medium,0,2,1,0,4,Dairy Processing,Medium,72000,48000,79
+Rural,160000,6,Medium,1,3,1,1,9,Handicraft,High,76000,49000,93
+Rural,105000,4,Low,0,1,1,1,6,Grocery Retail,Medium,38000,23000,71
+Rural,120000,5,High,0,2,1,1,5,Handicraft,High,49000,34000,98
+Semi-Urban,260000,5,High,0,6,1,1,4,Spice Processing,High,120000,77000,98
+Rural,110000,1,Medium,1,2,1,0,16,Agri Input Shop,Low,33000,23000,45
+Rural,135000,4,Medium,0,2,1,0,10,Agri Input Shop,High,63000,43000,76
+Semi-Urban,145000,5,Low,0,1,1,1,1,Grocery Retail,Low,41000,24000,71
+Semi-Urban,95000,1,High,0,3,1,1,4,Tailoring,Low,34000,23000,77
+Rural,85000,2,High,1,1,1,1,15,Tailoring,Medium,31000,19000,76
+Rural,255000,6,High,1,5,1,1,8,Food Processing,Medium,102000,59000,98
+Semi-Urban,85000,5,Low,0,2,1,1,4,Grocery Retail,Low,30000,21000,65
+Semi-Urban,240000,8,Medium,1,3,1,1,1,Dairy Processing,Medium,89000,59000,98
+Rural,75000,3,Medium,0,2,1,1,6,Tailoring,Low,25000,17000,69
+Rural,300000,6,High,0,4,1,1,14,Bakery,Medium,125000,79000,80
+Rural,600000,12,High,1,7,1,1,7,Fruit & Vegetable Processing,High,292000,197000,98
+Rural,165000,6,Medium,1,4,1,1,8,Dairy Processing,Medium,59000,37000,90
+Rural,330000,8,High,1,6,1,1,5,Spice Processing,Medium,118000,76000,98
+Semi-Urban,285000,7,Medium,1,4,1,1,5,Bakery,High,129000,84000,98
+Semi-Urban,270000,4,Medium,0,4,1,1,1,Bakery,Medium,107000,66000,87
+Semi-Urban,100000,5,Low,0,2,0,1,4,Grocery Retail,Medium,38000,25000,65
+Semi-Urban,365000,6,High,1,6,1,1,1,Food Processing,Medium,132000,89000,98
+Rural,260000,9,High,1,5,1,0,13,Spice Processing,Medium,101000,70000,86
+Rural,70000,1,Medium,0,1,0,1,12,Tailoring,Low,21000,13000,45
+Rural,95000,5,Medium,0,1,1,0,4,Grocery Retail,Medium,35000,20000,77
+Rural,90000,5,Medium,0,2,1,0,12,Tailoring,Low,29000,17000,54
+Rural,115000,1,Medium,0,1,1,0,13,Grocery Retail,Medium,43000,29000,53
+Semi-Urban,90000,2,Low,0,2,1,1,4,Grocery Retail,Low,30000,21000,59
+Rural,110000,4,Low,0,2,1,1,14,Grocery Retail,Low,37000,24000,45
+Semi-Urban,410000,7,High,1,6,1,1,1,Food Processing,High,177000,125000,98
+Semi-Urban,125000,4,Low,0,2,1,1,4,Grocery Retail,Low,42000,27000,61
+Rural,160000,4,Medium,1,2,1,1,10,Poultry,Medium,58000,35000,78
+Rural,535000,9,High,1,7,1,1,11,Fruit & Vegetable Processing,Low,176000,107000,86
+Rural,115000,2,Medium,0,3,1,1,17,Tailoring,Low,40000,25000,47
+Rural,165000,7,Medium,1,2,1,1,9,Dairy Processing,Medium,57000,37000,89
+Rural,80000,5,Medium,1,4,1,1,15,Handicraft,Low,25000,16000,65
+Rural,415000,9,High,0,6,1,1,6,Spice Processing,High,171000,111000,98
+Rural,120000,4,Medium,0,1,0,0,10,Agri Input Shop,Medium,43000,28000,56
+Semi-Urban,370000,10,High,1,4,1,1,4,Food Processing,High,162000,107000,98
+Rural,350000,8,High,1,4,1,1,10,Dairy Processing,Medium,129000,82000,98
+Semi-Urban,310000,7,Medium,0,2,1,1,2,Bakery,Medium,106000,63000,91
+Rural,160000,2,Low,0,2,0,1,9,Poultry,Low,57000,37000,45
+Rural,110000,2,Low,0,1,1,0,8,Agri Input Shop,Medium,44000,31000,52
+Rural,145000,3,Medium,0,4,1,1,13,Handicraft,Low,42000,29000,59
+Rural,315000,7,High,0,2,1,1,12,Dairy Processing,Low,90000,58000,78
+Rural,90000,3,Low,0,2,1,1,11,Agri Input Shop,Low,32000,21000,49
+Rural,220000,6,High,1,4,1,1,14,Dairy Processing,Low,79000,54000,80
+Rural,125000,4,Medium,1,1,0,0,15,Poultry,Low,40000,23000,46
+Semi-Urban,85000,2,High,0,2,1,1,3,Handicraft,Medium,30000,18000,91
+Semi-Urban,270000,7,High,1,3,1,0,1,Bakery,Medium,112000,70000,98
+Semi-Urban,145000,4,Medium,0,2,1,1,2,Grocery Retail,Medium,53000,33000,87
+Semi-Urban,95000,4,Medium,0,1,1,0,1,Tailoring,High,43000,29000,88
+Rural,195000,7,Medium,1,3,1,1,14,Bakery,Low,66000,44000,69
+Semi-Urban,120000,2,Low,0,2,1,1,4,Grocery Retail,Medium,46000,30000,69
+Semi-Urban,360000,7,High,1,6,1,1,5,Food Processing,High,149000,87000,98
+Semi-Urban,565000,11,High,1,4,1,1,5,Fruit & Vegetable Processing,High,245000,155000,98
+Rural,315000,7,High,1,4,1,1,9,Spice Processing,High,149000,89000,98
+Rural,470000,6,High,1,4,1,1,9,Spice Processing,Medium,187000,118000,97
+Rural,100000,1,High,0,2,0,1,7,Tailoring,Low,30000,19000,60
+Rural,135000,5,High,0,2,1,1,8,Handicraft,Medium,52000,37000,92
+Rural,125000,3,Low,0,1,1,0,10,Poultry,Low,38000,25000,45
+Rural,170000,4,Medium,1,2,1,0,4,Handicraft,High,80000,54000,88
+Rural,155000,2,Low,0,2,1,0,8,Poultry,Medium,56000,37000,54
+Rural,125000,6,Medium,1,1,1,0,6,Handicraft,High,56000,34000,90
+Rural,440000,6,High,1,8,1,1,4,Fruit & Vegetable Processing,High,199000,128000,98
+Semi-Urban,370000,6,High,1,5,1,1,1,Food Processing,Medium,154000,109000,98
+Semi-Urban,390000,10,High,0,3,1,1,4,Food Processing,High,178000,123000,98
+Semi-Urban,90000,4,Medium,1,1,1,1,3,Grocery Retail,Medium,34000,20000,92
+Rural,75000,2,Medium,0,2,1,1,12,Agri Input Shop,Low,23000,14000,56
+Rural,435000,9,High,1,6,1,1,13,Food Processing,Low,131000,81000,83
+Semi-Urban,255000,6,High,1,6,1,1,3,Food Processing,Medium,87000,51000,98
+Rural,205000,4,Medium,0,4,1,1,3,Bakery,High,99000,58000,97
+Semi-Urban,295000,5,High,0,5,1,1,2,Bakery,Medium,111000,74000,98
+Semi-Urban,65000,2,Low,0,1,1,1,2,Grocery Retail,Medium,22000,14000,68
+Rural,105000,3,Medium,0,1,1,0,6,Agri Input Shop,Medium,38000,27000,72
+Rural,110000,4,Medium,0,2,1,1,9,Tailoring,Medium,44000,28000,73
+Rural,250000,7,High,1,2,1,1,14,Bakery,Low,88000,57000,80
+Rural,70000,4,High,0,3,1,1,5,Tailoring,High,31000,22000,98
+Rural,305000,5,Medium,1,2,1,1,7,Dairy Processing,Low,93000,57000,77
+Semi-Urban,210000,8,Medium,0,5,1,1,4,Bakery,Medium,78000,56000,94
+Rural,560000,9,High,1,7,1,1,6,Fruit & Vegetable Processing,High,273000,176000,98
+Rural,115000,1,Low,1,1,0,1,6,Agri Input Shop,Medium,41000,26000,57
+Rural,130000,2,Medium,0,1,1,1,8,Grocery Retail,High,59000,42000,83
+Rural,305000,5,Medium,1,3,1,1,7,Dairy Processing,Medium,108000,77000,88
+Rural,85000,4,Low,0,2,0,0,11,Agri Input Shop,Low,29000,18000,45
+Semi-Urban,435000,10,High,1,4,1,1,3,Fruit & Vegetable Processing,High,209000,131000,98
+Rural,105000,4,Low,0,2,1,0,14,Agri Input Shop,Low,31000,21000,45
+Rural,485000,10,High,1,7,1,1,4,Fruit & Vegetable Processing,High,230000,152000,98
+Rural,365000,10,High,1,5,1,1,13,Fruit & Vegetable Processing,Medium,133000,77000,93
+Rural,75000,2,Medium,0,3,1,1,7,Tailoring,Low,27000,17000,65
+Rural,70000,4,High,1,4,1,1,5,Handicraft,High,32000,20000,98
+Rural,195000,7,High,1,3,1,1,6,Dairy Processing,High,82000,53000,98
+Rural,80000,2,Medium,0,1,1,0,3,Agri Input Shop,Low,23000,17000,62
+Rural,105000,1,Medium,0,3,1,1,3,Poultry,Medium,41000,28000,75
+Rural,240000,8,High,1,4,0,1,14,Dairy Processing,Medium,95000,59000,84
+Rural,140000,4,High,0,4,1,0,13,Handicraft,Medium,51000,34000,69
+Semi-Urban,245000,6,Medium,0,4,1,1,5,Dairy Processing,Medium,92000,62000,89
+Rural,435000,8,High,0,5,1,1,12,Food Processing,Low,132000,88000,83
+Rural,175000,1,Medium,1,1,1,1,10,Poultry,High,74000,52000,82
+Rural,95000,4,Medium,1,4,1,1,16,Handicraft,Medium,35000,23000,68
+Semi-Urban,70000,5,High,0,1,1,1,1,Tailoring,High,30000,19000,98
+Rural,90000,2,Low,0,1,1,1,12,Agri Input Shop,Low,32000,19000,49
+Semi-Urban,270000,10,High,1,3,1,1,3,Spice Processing,High,125000,83000,98
+Rural,95000,5,High,1,4,1,1,8,Handicraft,Medium,39000,23000,96
+Rural,90000,2,Low,0,2,1,1,4,Grocery Retail,Low,31000,18000,59
+Rural,90000,4,Medium,0,2,1,1,17,Agri Input Shop,Low,26000,15000,51
+Rural,105000,3,Medium,0,2,1,0,8,Handicraft,Medium,36000,22000,66
+Rural,350000,7,High,1,6,1,1,8,Food Processing,High,155000,96000,98
+Semi-Urban,335000,7,High,1,3,1,1,2,Spice Processing,High,147000,102000,98
+Rural,280000,4,High,1,3,1,1,3,Food Processing,Medium,111000,69000,97
+Semi-Urban,355000,10,High,1,6,1,1,3,Spice Processing,High,158000,97000,98
+Semi-Urban,135000,2,Low,0,1,1,1,3,Grocery Retail,Medium,52000,36000,71
+Rural,115000,2,Medium,0,2,1,0,3,Agri Input Shop,Low,35000,23000,62
+Semi-Urban,85000,5,High,0,2,0,0,3,Tailoring,High,39000,24000,90
+Rural,310000,9,High,1,6,1,1,15,Food Processing,Low,100000,68000,82
+Semi-Urban,335000,5,High,0,4,1,1,5,Food Processing,High,146000,101000,98
+Rural,420000,11,High,1,4,1,1,16,Fruit & Vegetable Processing,Medium,154000,106000,88
+Semi-Urban,380000,7,High,1,6,1,1,4,Spice Processing,High,180000,113000,98
+Rural,245000,4,High,1,3,1,1,10,Bakery,Medium,93000,54000,90
+Rural,110000,4,Medium,1,2,1,0,16,Agri Input Shop,Low,34000,22000,52
+Rural,365000,7,High,1,6,1,1,5,Spice Processing,High,170000,99000,98
+Semi-Urban,350000,9,High,1,4,1,1,5,Fruit & Vegetable Processing,Medium,143000,96000,98
+Semi-Urban,265000,8,High,1,3,0,1,1,Dairy Processing,Medium,90000,61000,98
+Semi-Urban,340000,10,High,1,5,1,1,3,Spice Processing,High,144000,97000,98
+Rural,70000,4,Medium,0,1,0,1,6,Tailoring,Low,23000,16000,60
+Rural,100000,1,Low,0,1,1,1,11,Agri Input Shop,Low,33000,23000,46
+Rural,585000,11,High,1,7,1,1,11,Fruit & Vegetable Processing,Medium,233000,156000,98
+Rural,175000,8,High,1,4,1,1,9,Dairy Processing,Medium,66000,42000,98
+Rural,190000,2,Medium,1,3,0,0,12,Poultry,Low,65000,44000,45
+Semi-Urban,390000,7,High,0,7,1,1,1,Fruit & Vegetable Processing,High,185000,130000,98
+Rural,185000,4,Medium,1,1,1,0,11,Poultry,Low,61000,44000,57
+Rural,130000,2,Low,1,2,1,1,7,Agri Input Shop,Medium,50000,36000,70
+Semi-Urban,250000,9,High,1,5,1,1,4,Food Processing,High,117000,77000,98
+Rural,475000,9,High,1,4,1,1,10,Fruit & Vegetable Processing,Medium,175000,124000,96
+Semi-Urban,140000,4,Low,1,1,1,1,2,Grocery Retail,Medium,56000,39000,84
+Rural,125000,1,Low,0,1,1,1,7,Poultry,Medium,46000,33000,63
+Semi-Urban,90000,1,High,1,3,1,1,4,Tailoring,Medium,31000,20000,89
+Semi-Urban,115000,5,Low,0,1,1,1,1,Grocery Retail,Medium,47000,33000,76
+Rural,70000,3,High,0,4,0,1,3,Handicraft,Medium,24000,17000,81
+Rural,115000,5,High,0,2,1,1,12,Handicraft,Low,35000,24000,73
+Rural,295000,7,Medium,1,2,1,1,12,Dairy Processing,Low,94000,62000,75
+Rural,400000,8,High,1,4,1,0,9,Food Processing,High,191000,123000,98
+Rural,110000,3,Medium,0,1,1,0,5,Agri Input Shop,High,47000,30000,82
+Rural,370000,8,High,1,5,1,1,3,Fruit & Vegetable Processing,Medium,152000,108000,98
+Rural,230000,6,High,1,3,1,0,16,Bakery,Low,76000,52000,69
+Semi-Urban,100000,3,High,0,3,1,1,5,Tailoring,Medium,36000,22000,86
+Rural,100000,2,Low,1,1,1,1,17,Poultry,Medium,34000,24000,56
+Rural,115000,4,Low,0,1,1,0,8,Agri Input Shop,Medium,40000,24000,59
+Semi-Urban,115000,5,Low,1,1,0,0,4,Grocery Retail,Medium,43000,28000,62
+Rural,90000,3,Medium,1,1,1,1,4,Handicraft,Medium,32000,21000,87
+Semi-Urban,85000,3,Medium,0,2,1,1,3,Tailoring,Medium,30000,19000,79
+Semi-Urban,260000,3,High,1,4,1,1,1,Bakery,Medium,104000,64000,97
+Rural,445000,6,High,0,7,1,1,3,Fruit & Vegetable Processing,High,192000,126000,98
+Rural,230000,8,High,1,4,1,1,5,Dairy Processing,High,103000,68000,98
+Rural,270000,4,Medium,1,5,1,1,10,Bakery,Medium,113000,76000,80
+Rural,110000,2,High,1,1,1,0,10,Tailoring,High,49000,29000,83
+Rural,270000,4,Medium,1,4,1,1,6,Bakery,High,128000,84000,97
+Rural,110000,5,High,0,1,1,1,5,Tailoring,Medium,45000,30000,95
+Rural,75000,3,High,1,3,1,1,8,Tailoring,Medium,26000,16000,89
+Semi-Urban,465000,6,High,1,5,1,1,3,Spice Processing,High,211000,130000,98
+Rural,120000,3,Medium,1,1,1,0,3,Poultry,Medium,49000,30000,82
+Rural,155000,4,Medium,1,3,1,1,5,Handicraft,Medium,55000,33000,88
+Rural,255000,9,High,1,3,1,1,4,Spice Processing,Medium,107000,73000,98
+Rural,525000,12,High,1,6,1,1,10,Fruit & Vegetable Processing,Medium,201000,136000,98
+Rural,315000,8,High,1,6,1,1,8,Spice Processing,Low,90000,57000,92
+Rural,325000,5,High,1,6,1,1,11,Food Processing,Medium,115000,79000,93
+Rural,390000,4,High,0,6,1,1,4,Food Processing,High,188000,114000,98
+Rural,105000,2,Medium,0,2,1,0,7,Handicraft,Medium,38000,24000,65
+Rural,315000,7,Medium,0,3,1,1,7,Bakery,Medium,118000,75000,85
+Rural,200000,1,Low,1,1,1,0,16,Poultry,Low,64000,37000,45
+Rural,125000,4,Medium,0,4,1,1,17,Handicraft,Medium,51000,30000,66
+Rural,100000,2,Medium,0,3,1,1,4,Tailoring,Medium,42000,25000,79
+Rural,105000,4,Low,0,1,1,0,16,Grocery Retail,Medium,36000,22000,45
+Rural,130000,3,Medium,0,2,1,1,16,Poultry,Medium,46000,32000,61
+Rural,140000,2,Medium,1,2,0,1,6,Poultry,Low,44000,29000,65
+Rural,85000,4,Medium,0,3,1,1,11,Tailoring,Low,29000,18000,60
+Semi-Urban,110000,3,Medium,0,1,1,1,1,Tailoring,Medium,40000,28000,81
+Semi-Urban,260000,6,Medium,1,4,1,1,2,Dairy Processing,High,108000,76000,98
+Rural,110000,4,High,1,1,1,1,9,Handicraft,Low,36000,24000,81
+Rural,100000,1,Medium,0,1,0,1,5,Tailoring,Medium,42000,25000,65
+Semi-Urban,370000,10,High,0,5,1,1,4,Food Processing,High,157000,103000,98
+Rural,510000,11,High,1,6,1,1,11,Fruit & Vegetable Processing,Low,157000,107000,90
+Rural,85000,3,Low,0,2,1,0,16,Grocery Retail,Medium,32000,20000,45
+Semi-Urban,170000,4,High,1,4,1,1,3,Handicraft,High,83000,49000,98
+Rural,85000,3,Low,0,2,1,1,15,Agri Input Shop,Low,25000,16000,45
+Rural,255000,9,High,1,6,1,1,9,Food Processing,Medium,96000,64000,98
+Semi-Urban,210000,8,Medium,0,3,1,1,4,Bakery,High,99000,61000,98
+Rural,90000,2,High,0,2,1,1,5,Tailoring,Medium,32000,19000,87
+Rural,100000,1,Medium,0,1,1,1,8,Agri Input Shop,High,44000,30000,79
+Rural,85000,1,High,1,1,1,1,3,Tailoring,Medium,33000,23000,90
+Rural,170000,3,Medium,1,1,1,0,5,Poultry,Medium,68000,48000,73
+Semi-Urban,420000,5,High,1,6,1,1,1,Food Processing,High,191000,124000,98
+Rural,190000,4,Low,0,3,1,0,11,Poultry,Low,56000,36000,45
+Rural,265000,6,High,1,3,1,1,4,Dairy Processing,High,129000,76000,98
+Rural,185000,1,Low,1,2,1,0,16,Poultry,Low,55000,34000,45
+Rural,280000,6,High,1,4,1,0,11,Dairy Processing,Low,94000,61000,72
+Rural,195000,8,High,1,2,1,1,8,Dairy Processing,Medium,72000,44000,98
+Rural,105000,2,Medium,0,1,0,1,4,Agri Input Shop,Medium,44000,26000,69
+Semi-Urban,110000,3,Medium,0,1,1,1,4,Tailoring,Low,32000,19000,70
+Rural,265000,6,Medium,1,2,1,1,14,Bakery,Low,86000,59000,66
+Rural,145000,4,Low,1,3,1,0,13,Poultry,Low,51000,33000,49
+Rural,265000,4,High,1,3,0,1,4,Food Processing,High,115000,81000,98
+Rural,185000,4,High,1,3,1,1,3,Dairy Processing,Medium,69000,46000,97
+Rural,65000,1,High,1,1,1,1,6,Tailoring,Medium,26000,17000,89
+Rural,145000,1,Low,0,1,1,0,8,Grocery Retail,Low,43000,30000,45
+Semi-Urban,75000,3,High,1,4,0,0,4,Handicraft,Medium,30000,18000,77
+Rural,65000,1,Low,1,2,1,0,4,Agri Input Shop,Medium,23000,15000,61
+Semi-Urban,200000,3,High,1,3,1,1,2,Bakery,High,86000,56000,98
+Semi-Urban,350000,8,High,1,3,1,1,1,Spice Processing,High,160000,96000,98
+Rural,100000,4,Low,1,1,1,1,6,Agri Input Shop,Low,34000,20000,66
+Rural,135000,1,Low,1,2,1,1,6,Grocery Retail,Medium,48000,32000,66
+Rural,105000,2,High,1,1,0,1,3,Handicraft,High,48000,32000,96
+Rural,115000,1,Medium,0,1,1,0,8,Grocery Retail,High,55000,33000,71
+Rural,135000,1,Low,1,3,1,1,16,Poultry,Low,47000,33000,45
+Rural,225000,5,Medium,1,2,1,1,14,Dairy Processing,Medium,78000,49000,78
+Rural,310000,4,Medium,1,5,1,1,6,Bakery,High,146000,87000,97
+Semi-Urban,495000,8,High,1,8,1,1,2,Fruit & Vegetable Processing,High,219000,130000,98
+Rural,250000,3,Medium,1,3,1,1,7,Dairy Processing,Medium,104000,68000,83
+Rural,490000,11,High,1,7,1,1,12,Fruit & Vegetable Processing,Low,159000,94000,84
+Rural,145000,3,Medium,1,1,1,1,15,Handicraft,Low,49000,29000,61
+Semi-Urban,115000,1,High,1,1,1,0,2,Tailoring,Medium,46000,30000,85
+Rural,405000,5,High,0,4,1,1,5,Spice Processing,High,179000,128000,98
+Semi-Urban,360000,9,High,1,6,1,1,4,Food Processing,High,169000,104000,98
+Rural,320000,6,Medium,1,3,1,1,11,Dairy Processing,Medium,126000,83000,84
+Rural,220000,3,High,1,2,1,1,13,Bakery,Low,76000,47000,71
+Semi-Urban,110000,2,Low,1,2,1,1,2,Grocery Retail,Low,35000,22000,64
+Semi-Urban,295000,5,Medium,1,5,1,1,3,Bakery,Medium,123000,72000,93
+Semi-Urban,125000,6,High,1,1,1,1,1,Handicraft,Medium,51000,32000,98
+Semi-Urban,440000,11,High,1,4,1,1,3,Fruit & Vegetable Processing,Medium,164000,111000,98
+Semi-Urban,90000,3,Low,0,1,0,1,2,Grocery Retail,Medium,31000,21000,63
+Semi-Urban,330000,4,High,1,6,1,1,3,Food Processing,High,147000,97000,98
+Semi-Urban,425000,8,High,1,5,1,1,3,Food Processing,High,183000,127000,98
+Rural,185000,3,Medium,0,4,1,1,9,Dairy Processing,Medium,71000,43000,74
+Rural,75000,3,Medium,0,2,1,1,6,Handicraft,Medium,31000,20000,77
+Semi-Urban,85000,5,High,0,1,0,1,4,Tailoring,Medium,32000,21000,88
+Rural,120000,4,High,1,3,1,1,14,Handicraft,Medium,50000,33000,82
+Semi-Urban,545000,8,High,1,8,1,1,1,Fruit & Vegetable Processing,High,245000,169000,98
+Semi-Urban,285000,3,Medium,0,4,1,1,1,Bakery,Low,84000,57000,75
+Rural,420000,9,High,1,5,1,1,7,Food Processing,High,180000,118000,98
+Semi-Urban,315000,4,High,0,3,1,1,5,Bakery,High,154000,96000,98
+Semi-Urban,280000,6,Medium,0,3,1,1,1,Bakery,Low,96000,56000,80
+Rural,225000,6,High,0,3,1,0,6,Bakery,High,99000,71000,96
+Semi-Urban,375000,7,High,1,3,1,1,1,Food Processing,High,167000,110000,98
+Rural,100000,4,Low,0,2,0,1,7,Agri Input Shop,Medium,34000,23000,63
+Rural,155000,2,Low,0,3,1,0,8,Poultry,Low,49000,30000,45
+Rural,545000,11,High,0,4,1,1,9,Fruit & Vegetable Processing,High,244000,153000,98
+Rural,60000,4,Low,0,2,1,0,7,Agri Input Shop,Medium,21000,14000,62
+Rural,430000,9,High,1,5,1,1,17,Fruit & Vegetable Processing,Low,123000,82000,78
+Semi-Urban,80000,4,Medium,0,2,1,1,5,Grocery Retail,Medium,29000,18000,82
+Rural,110000,4,Medium,0,2,1,1,12,Handicraft,Medium,40000,24000,72
+Rural,135000,6,Medium,0,4,0,1,15,Handicraft,Medium,54000,39000,61
+Semi-Urban,315000,9,High,1,6,0,1,2,Spice Processing,High,130000,91000,98
+Rural,145000,4,Medium,1,2,1,0,10,Handicraft,Medium,53000,37000,68
+Semi-Urban,330000,6,High,1,5,1,1,3,Food Processing,High,149000,105000,98
+Rural,65000,5,Medium,1,3,1,1,8,Tailoring,Medium,24000,15000,87
+Rural,295000,7,Medium,0,4,1,1,11,Dairy Processing,Low,104000,64000,69
+Rural,405000,10,High,1,5,1,1,7,Spice Processing,Medium,146000,88000,98
+Rural,175000,5,Medium,1,4,1,1,16,Dairy Processing,Low,51000,35000,65
+Semi-Urban,405000,7,High,0,5,1,1,3,Fruit & Vegetable Processing,High,176000,116000,98
+Rural,150000,3,Medium,1,2,1,1,16,Dairy Processing,Low,49000,29000,55
+Rural,340000,6,Medium,1,4,1,1,10,Dairy Processing,Low,121000,83000,75
+Semi-Urban,340000,5,High,1,3,1,1,5,Spice Processing,High,159000,106000,98
+Semi-Urban,65000,3,Low,1,1,0,1,4,Grocery Retail,Low,20000,12000,60
+Rural,235000,6,High,0,4,1,0,5,Bakery,High,112000,74000,98
+Rural,175000,4,Medium,0,4,1,1,9,Handicraft,High,80000,55000,85
+Rural,110000,4,Medium,1,2,0,1,12,Handicraft,Low,36000,21000,58
+Rural,305000,9,High,1,3,1,1,4,Food Processing,High,143000,95000,98
+Rural,370000,8,High,1,4,0,1,5,Spice Processing,High,161000,116000,98
+Semi-Urban,275000,5,High,1,6,1,1,2,Food Processing,High,114000,80000,98
+Rural,110000,1,High,0,2,1,1,11,Tailoring,Medium,38000,26000,75
+Rural,70000,3,Medium,0,1,0,1,4,Tailoring,Medium,27000,18000,74
+Semi-Urban,340000,7,High,1,5,1,0,1,Food Processing,High,153000,109000,98
+Semi-Urban,325000,7,High,1,5,1,1,3,Spice Processing,Medium,121000,70000,98
+Rural,375000,10,High,1,6,0,1,6,Food Processing,High,168000,111000,98
+Rural,105000,2,High,0,1,1,1,12,Handicraft,Low,37000,22000,64
+Rural,95000,1,Medium,1,1,0,0,15,Agri Input Shop,Medium,37000,23000,48
+Rural,120000,3,Medium,1,2,1,0,12,Poultry,Medium,44000,28000,67
+Rural,260000,7,Medium,1,3,1,1,3,Dairy Processing,Low,87000,55000,87
+Rural,205000,1,Medium,1,3,1,1,4,Poultry,Low,64000,44000,71
+Rural,285000,9,High,0,6,1,1,17,Spice Processing,Low,93000,64000,71
+Rural,165000,1,Low,0,2,0,1,5,Poultry,Medium,68000,44000,57
+Semi-Urban,110000,4,Medium,0,3,1,1,1,Tailoring,Medium,46000,30000,89
+Rural,530000,10,High,1,4,1,1,7,Fruit & Vegetable Processing,High,231000,145000,98
+Rural,165000,8,High,1,3,1,1,17,Dairy Processing,Medium,67000,44000,90
+Rural,185000,8,Medium,1,2,1,1,16,Bakery,Low,59000,34000,69
+Semi-Urban,380000,8,High,1,3,1,1,5,Spice Processing,Medium,139000,90000,98
+Semi-Urban,205000,4,Medium,1,3,1,1,1,Dairy Processing,Low,71000,45000,83
+Rural,120000,3,Medium,1,2,0,0,16,Poultry,Medium,41000,28000,50
+Rural,115000,1,Medium,1,3,1,1,12,Tailoring,Medium,44000,28000,68
+Semi-Urban,140000,3,Medium,0,1,1,1,4,Grocery Retail,Medium,52000,37000,82
+Rural,120000,4,Medium,1,1,1,0,4,Agri Input Shop,High,53000,35000,87
+Rural,305000,4,Medium,0,3,1,1,14,Bakery,Medium,128000,86000,70
+Rural,90000,3,Medium,0,1,1,1,15,Agri Input Shop,Low,27000,19000,51
+Rural,210000,3,Medium,1,2,1,1,17,Dairy Processing,Low,63000,45000,56
+Rural,100000,4,High,0,1,1,0,11,Tailoring,Low,29000,17000,63
+Semi-Urban,90000,3,Medium,0,2,1,1,2,Tailoring,Medium,35000,21000,82
+Rural,100000,4,Medium,1,3,1,1,9,Poultry,Medium,38000,26000,78
+Rural,155000,5,High,1,1,1,1,17,Handicraft,Low,47000,28000,71
+Rural,185000,2,Low,0,1,1,0,10,Poultry,Medium,70000,48000,52
+Rural,180000,2,Medium,1,2,1,0,3,Handicraft,Medium,74000,51000,75
+Rural,125000,3,High,0,2,0,1,9,Handicraft,Medium,48000,30000,75
+Semi-Urban,215000,6,Medium,1,2,1,1,2,Bakery,Medium,77000,55000,95
+Rural,165000,2,Medium,0,2,1,0,14,Poultry,Medium,57000,39000,56
+Semi-Urban,80000,1,Low,0,2,0,1,3,Grocery Retail,Low,27000,16000,50
+Semi-Urban,405000,7,High,1,5,1,1,5,Food Processing,High,168000,98000,98
+Semi-Urban,440000,10,High,1,6,1,1,1,Food Processing,High,207000,129000,98
+Rural,150000,3,Low,0,1,1,1,16,Poultry,Low,43000,28000,45
+Rural,210000,3,Medium,1,3,1,0,15,Poultry,Low,59000,39000,53
+Rural,140000,4,Low,0,1,0,0,10,Agri Input Shop,Low,49000,34000,45
+Semi-Urban,195000,8,High,0,3,1,0,1,Bakery,High,87000,58000,98
+Rural,195000,1,Medium,0,2,0,1,7,Poultry,Medium,67000,41000,61
+Rural,80000,2,Low,1,1,1,1,9,Agri Input Shop,Low,28000,20000,58
+Rural,140000,4,Medium,1,3,1,1,3,Handicraft,Medium,53000,34000,90
+Semi-Urban,100000,3,High,0,1,1,1,3,Tailoring,Low,34000,21000,80
+Rural,110000,3,High,0,2,0,0,13,Tailoring,Low,36000,22000,52
+Rural,105000,5,High,1,2,1,1,17,Handicraft,Low,31000,21000,71
+Rural,290000,10,High,1,3,1,1,17,Spice Processing,Medium,120000,74000,87
+Rural,120000,4,Low,1,1,1,0,7,Agri Input Shop,Low,40000,23000,53
+Rural,130000,2,Low,1,1,1,0,13,Agri Input Shop,Low,38000,25000,45
+Rural,130000,5,High,0,1,1,1,4,Handicraft,Medium,48000,33000,95
+Rural,65000,4,Low,0,2,1,1,6,Grocery Retail,Low,20000,13000,63
+Semi-Urban,455000,9,High,0,8,1,1,2,Fruit & Vegetable Processing,High,222000,129000,98

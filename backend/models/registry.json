@@ -1,0 +1,80 @@
+{
+  "system": "VyaparSathi Model Registry",
+  "version": "1.0.0",
+  "last_updated": "2026-09-05T11:48:33.589328+00:00",
+  "active_models": {
+    "profit_prediction": "profit_v1.0.0-baseline",
+    "demand_prediction": "demand_v1.0.0-baseline",
+    "business_category": "category_v1.0.0-baseline",
+    "business_suitability": "suitability_v1.0.0-baseline"
+  },
+  "models": {
+    "profit_v1.0.0-baseline": {
+      "model_name": "profit_prediction",
+      "artifact_file": "vyaparsathi_profit_model.pkl",
+      "version": "profit_v1.0.0-baseline",
+      "status": "active",
+      "sha256": "28be02e053b7ed13914f1468a27f3094cef31b03c768e45f6107b759c483e377",
+      "trained_at": "2026-02-15T00:00:00Z",
+      "dataset_version": "synthetic_prototype_v1",
+      "data_status": "synthetic_prototype",
+      "real_sample_count": 0,
+      "metrics": {
+        "r2_score": 0.86,
+        "mae": 3200
+      },
+      "feature_version": "v1_profit_9feat"
+    },
+    "demand_v1.0.0-baseline": {
+      "model_name": "demand_prediction",
+      "artifact_file": "vyaparsathi_demand_model.joblib",
+      "version": "demand_v1.0.0-baseline",
+      "status": "active",
+      "sha256": "5547ed80c4d9f5e6ad58aa456c11138bb90e3b545f6de3932a9cd7a65ff8584c",
+      "trained_at": "2026-03-01T00:00:00Z",
+      "dataset_version": "synthetic_prototype_v1",
+      "data_status": "synthetic_prototype",
+      "real_sample_count": 0,
+      "metrics": {
+        "validation_accuracy": 0.88,
+        "f1_macro": 0.87
+      },
+      "feature_version": "v1_demand_4feat"
+    },
+    "category_v1.0.0-baseline": {
+      "model_name": "business_category",
+      "artifact_file": "vyaparsathi_business_category_model.joblib",
+      "version": "category_v1.0.0-baseline",
+      "status": "active",
+      "sha256": "c9361074871c35dea7eacd3acf2ada7a713a90ba69c066764b286e6de27887ed",
+      "trained_at": "2026-03-01T00:00:00Z",
+      "dataset_version": "synthetic_prototype_v1",
+      "data_status": "synthetic_prototype",
+      "real_sample_count": 0,
+      "metrics": {
+        "validation_accuracy": 0.82,
+        "f1_weighted": 0.81
+      },
+      "feature_version": "v1_category_7feat"
+    },
+    "suitability_v1.0.0-baseline": {
+      "model_name": "business_suitability",
+      "artifact_file": "vyaparsathi_business_suitability_model.pkl",
+      "version": "suitability_v1.0.0-baseline",
+      "status": "active",
+      "sha256": "4e910cac613d46b6d8468ffb8b566f8f46e9e5976ea37661cd5374fdb649c3fb",
+      "trained_at": "2026-02-15T00:00:00Z",
+      "dataset_version": "synthetic_prototype_v1",
+      "data_status": "synthetic_prototype",
+      "real_sample_count": 0,
+      "real_label_available": false,
+      "retraining_blocked": true,
+      "notes": "Suitability model uses a heuristic prototype formula. Real-world retraining blocked until an objective outcome (e.g. 12-mo survival) is defined.",
+      "metrics": {
+        "r2_score": 0.84,
+        "rmse": 0.08
+      },
+      "feature_version": "v1_suitability_8feat"
+    }
+  }
+}

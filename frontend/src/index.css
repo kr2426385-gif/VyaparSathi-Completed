@@ -1,0 +1,760 @@
+@import "leaflet/dist/leaflet.css";
+
+/* Hide Leaflet watermark/attribution */
+.leaflet-control-attribution {
+  display: none !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Inter', 'Outfit', 'system-ui', -apple-system, sans-serif;
+  background-color: #fbfbf9;
+  background-image: 
+    radial-gradient(at 15% 10%, rgba(10, 35, 66, 0.04) 0px, transparent 48%),
+    radial-gradient(at 85% 15%, rgba(245, 158, 11, 0.045) 0px, transparent 42%),
+    radial-gradient(at 50% 55%, rgba(5, 150, 105, 0.03) 0px, transparent 52%),
+    radial-gradient(at 85% 85%, rgba(10, 35, 66, 0.035) 0px, transparent 45%);
+  background-attachment: fixed;
+  color: #1c1917;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =========================================================================
+   CENTRALIZED GLOBAL TYPOGRAPHY SYSTEM (SIH / VyaparSathi Standard)
+   ========================================================================= */
+
+@layer base {
+  /* 1. Page title / Hero heading (36–44px desktop, 30–36px tablet, 26–32px mobile) */
+  h1, .page-title, .heading-hero {
+    font-family: 'Inter', 'Outfit', system-ui, -apple-system, sans-serif;
+    font-size: clamp(1.625rem, 3.5vw, 2.375rem); /* 26px - 38px responsive */
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    font-weight: 700;
+  }
+
+  /* 2. Section heading (26–32px desktop, 22–28px mobile) */
+  h2, .section-title, .heading-section {
+    font-family: 'Inter', 'Outfit', system-ui, -apple-system, sans-serif;
+    font-size: clamp(1.375rem, 2.5vw, 1.875rem); /* 22px - 30px responsive */
+    line-height: 1.25;
+    letter-spacing: -0.015em;
+    font-weight: 700;
+  }
+
+  /* 3. Card heading (18–20px, font-weight: 600-700, same size across all cards) */
+  h3, .card-title, .heading-card {
+    font-family: 'Inter', 'Outfit', system-ui, -apple-system, sans-serif;
+    font-size: 1.1875rem; /* 19px */
+    line-height: 1.35;
+    letter-spacing: -0.01em;
+    font-weight: 600;
+  }
+
+  /* 4. Sub-headings & Small Group Titles */
+  h4, .sub-heading {
+    font-family: 'Inter', 'Outfit', system-ui, -apple-system, sans-serif;
+    font-size: 1rem; /* 16px */
+    line-height: 1.4;
+    font-weight: 600;
+  }
+
+  /* 5. Body text (15–16px, line-height 1.5–1.6) */
+  p, .body-text {
+    font-size: 0.9375rem; /* 15px */
+    line-height: 1.55;
+    font-weight: 400;
+  }
+
+  /* 6. Form Inputs & Selects (14–16px) */
+  input, select, textarea, .form-input {
+    font-size: 0.9375rem; /* 15px */
+    line-height: 1.4;
+    font-family: inherit;
+  }
+
+  input::placeholder, textarea::placeholder {
+    font-size: 0.875rem; /* 14px */
+    font-weight: 400;
+    line-height: 1.4;
+  }
+
+  /* 7. Form Labels (12–14px, font-weight 500-600) */
+  label, .form-label {
+    font-size: 0.84375rem; /* 13.5px */
+    line-height: 1.4;
+    font-weight: 600;
+  }
+
+  /* 8. Buttons (14–16px, font-weight: 600) */
+  button, .btn-text {
+    font-family: 'Inter', 'Outfit', system-ui, -apple-system, sans-serif;
+    font-size: 0.9375rem; /* 15px */
+    font-weight: 600;
+    line-height: 1.4;
+  }
+}
+
+/* Specific Card Typography Normalizers */
+.card-desc,
+.card-description,
+[data-card] p,
+.journey-flip-front p,
+.journey-flip-back p {
+  font-size: 0.9375rem !important; /* 15px */
+  line-height: 1.5 !important;
+  font-weight: 400 !important;
+}
+
+.card-meta,
+.meta-text {
+  font-size: 0.8125rem !important; /* 13px */
+  line-height: 1.4 !important;
+  font-weight: 400 !important;
+}
+
+/* Badges / pills (11–13px, font-weight: 600-700) */
+.badge-typography,
+.badge {
+  font-size: 0.75rem !important; /* 12px */
+  line-height: 1.3 !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.02em !important;
+}
+
+/* Navbar links (14–16px desktop, 13–14px mobile, font-weight: 500-600) */
+nav a,
+nav button {
+  font-size: clamp(0.8125rem, 1.2vw, 0.9375rem);
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* Footer typography standardization */
+footer h4 {
+  font-size: 0.875rem; /* 14px */
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+footer a,
+footer button {
+  font-size: 0.8125rem; /* 13px */
+  line-height: 1.5;
+}
+
+/* Glassmorphism & Enterprise Panel utilities */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(231, 229, 228, 0.85);
+  box-shadow: 0 4px 20px -2px rgba(10, 35, 66, 0.05);
+}
+
+
+
+/* Base custom styles to guarantee minimum touch heights */
+input, select, textarea, button {
+  min-height: 44px;
+}
+
+/* Prevent horizontal scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Pulse animation for voice input listening state */
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(22, 163, 74, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(22, 163, 74, 0);
+  }
+}
+
+.animate-pulse-ring {
+  animation: pulse-ring 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Waveform bars style for voice */
+@keyframes voice-wave {
+  0%, 100% {
+    height: 8px;
+  }
+  50% {
+    height: 28px;
+  }
+}
+
+.voice-bar {
+  animation: voice-wave 1.2s ease-in-out infinite;
+}
+.voice-bar-1 { animation-delay: 0.1s; }
+.voice-bar-2 { animation-delay: 0.3s; }
+.voice-bar-3 { animation-delay: 0.5s; }
+.voice-bar-4 { animation-delay: 0.2s; }
+.voice-bar-5 { animation-delay: 0.4s; }
+
+/* 3D Flip Card System (Cross-browser, smooth 60fps) */
+.flip-card {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  border-radius: 1rem;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus-within .flip-card-inner,
+.flip-card.is-flipped .flip-card-inner {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.flip-card-front {
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  z-index: 2;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  z-index: 1;
+}
+
+/* Dedicated Journey 3D Flip Card System (Click/tap controlled, 480ms transition, no hover shift) */
+.journey-flip-card {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+.journey-flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.48s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  border-radius: 1rem;
+}
+
+.journey-flip-card.is-flipped .journey-flip-inner {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.journey-flip-front,
+.journey-flip-back {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.journey-flip-front {
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  z-index: 2;
+}
+
+.journey-flip-back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  z-index: 1;
+}
+
+/* Dedicated Context 3D Flip Card System */
+.context-flip-card {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+.context-flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.42s cubic-bezier(0.2, 0.8, 0.2, 1);
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  border-radius: 1rem;
+}
+
+.context-flip-card.is-flipped .context-flip-inner {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.context-flip-front,
+.context-flip-back {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.context-flip-front {
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  z-index: 2;
+}
+
+.context-flip-back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  z-index: 1;
+}
+
+/* SIH26091 3D Stacked Interactive Card Experience */
+.sih-stacked-deck {
+  perspective: 1400px;
+  -webkit-perspective: 1400px;
+}
+
+.sih-stacked-card-wrapper {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.sih-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.52s cubic-bezier(0.2, 0.85, 0.25, 1);
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  border-radius: 1.25rem;
+}
+
+.sih-card-inner.is-flipped {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.sih-card-face-front,
+.sih-card-face-back {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1.25rem;
+  overflow: hidden;
+}
+
+.sih-card-face-front {
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  z-index: 2;
+}
+
+.sih-card-face-back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .journey-flip-inner,
+  .context-flip-inner,
+  .sih-card-inner,
+  .sih-stacked-card-wrapper,
+  .pillar-card-3d,
+  .pillar-flip-inner {
+    transition: none !important;
+  }
+}
+
+/* SIH26091 Modern Information Pillars 3D Carousel */
+.pillars-carousel-container {
+  perspective: 1500px;
+  -webkit-perspective: 1500px;
+}
+
+.pillar-card-3d {
+  transition: all 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.pillar-flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.52s cubic-bezier(0.2, 0.85, 0.25, 1);
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+  border-radius: 1.5rem;
+}
+
+.pillar-flip-inner.is-flipped {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+}
+
+.pillar-face-front,
+.pillar-face-back {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.pillar-face-front {
+  transform: rotateY(0deg);
+  -webkit-transform: rotateY(0deg);
+  z-index: 2;
+}
+
+.pillar-face-back {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  z-index: 1;
+}
+
+/* ==========================================================================
+   Vertical Animated Stepper Transitions
+   ========================================================================== */
+@keyframes stepperFadeSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes stepperLineGrow {
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes stepperCheckPop {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  65% {
+    transform: scale(1.18);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-stepper-slide-in {
+  animation: stepperFadeSlideIn 0.38s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-stepper-line {
+  transform-origin: top;
+  animation: stepperLineGrow 0.48s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-stepper-check {
+  animation: stepperCheckPop 0.34s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-stepper-slide-in,
+  .animate-stepper-line,
+  .animate-stepper-check {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    opacity: 1 !important;
+  }
+}
+
+/* Orbiting Border Glow Dot for Feedback Modal Card */
+@keyframes orbitBorderDot {
+  0% {
+    offset-distance: 0%;
+  }
+  100% {
+    offset-distance: 100%;
+  }
+}
+
+@-webkit-keyframes orbitBorderDot {
+  0% {
+    -webkit-offset-distance: 0%;
+  }
+  100% {
+    -webkit-offset-distance: 100%;
+  }
+}
+
+.perimeter-glow-dot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background-color: #ffffff;
+  border-radius: 9999px;
+  box-shadow: 
+    0 0 4px 2px #ffffff,
+    0 0 10px 4px #10b981,
+    0 0 20px 6px rgba(16, 185, 129, 0.65);
+  pointer-events: none;
+  z-index: 40;
+  animation: orbitBorderDot 5s linear infinite;
+  -webkit-animation: orbitBorderDot 5s linear infinite;
+  will-change: offset-distance, -webkit-offset-distance;
+}
+
+/* ==========================================================================
+   Antigravity 3D Floating Glassmorphic UI System
+   ========================================================================== */
+.bg-tech-dot-grid {
+  background-image: radial-gradient(rgba(100, 116, 139, 0.22) 1.25px, transparent 1.25px);
+  background-size: 22px 22px;
+}
+
+@keyframes antigravityHoverLeft {
+  0%, 100% {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotateX(0.75deg);
+  }
+}
+
+@keyframes antigravityHoverRight {
+  0%, 100% {
+    transform: translateY(0px) rotateX(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotateX(-0.75deg);
+  }
+}
+
+@keyframes antigravityCastShadowLeft {
+  0%, 100% {
+    transform: scale(0.92, 0.82);
+    opacity: 0.38;
+    filter: blur(7px);
+  }
+  50% {
+    transform: scale(1.08, 0.96);
+    opacity: 0.20;
+    filter: blur(15px);
+  }
+}
+
+@keyframes antigravityCastShadowRight {
+  0%, 100% {
+    transform: scale(0.92, 0.82);
+    opacity: 0.44;
+    filter: blur(7px);
+  }
+  50% {
+    transform: scale(1.08, 0.96);
+    opacity: 0.22;
+    filter: blur(15px);
+  }
+}
+
+.animate-antigravity-left {
+  animation: antigravityHoverLeft 5s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-antigravity-right {
+  animation: antigravityHoverRight 6.5s ease-in-out infinite;
+  will-change: transform;
+}
+
+.animate-antigravity-shadow-left {
+  animation: antigravityCastShadowLeft 5s ease-in-out infinite;
+  will-change: transform, opacity, filter;
+}
+
+.animate-antigravity-shadow-right {
+  animation: antigravityCastShadowRight 6.5s ease-in-out infinite;
+  will-change: transform, opacity, filter;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-antigravity-left,
+  .animate-antigravity-right,
+  .animate-antigravity-shadow-left,
+  .animate-antigravity-shadow-right {
+    animation: none !important;
+    transform: none !important;
+  }
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   SAVE BUTTON INTERACTIVE GLOW & MICRO-ANIMATION
+   (Inspired by Recording 2026-09-14 173702: smooth scale,
+    radial luminous glow, and sheen burst on hover/saved)
+   ══════════════════════════════════════════════════════════════════ */
+@keyframes saveButtonGlow {
+  0%, 100% {
+    box-shadow: 0 0 12px -2px rgba(19, 113, 76, 0.35), 0 0 0 1px rgba(58, 182, 125, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 22px 2px rgba(58, 182, 125, 0.65), 0 0 0 1.5px rgba(162, 228, 148, 0.8);
+  }
+}
+
+@keyframes savePop {
+  0% { transform: scale(0.92); }
+  50% { transform: scale(1.08); }
+  100% { transform: scale(1); }
+}
+
+.btn-save-animated {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-save-animated:hover {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 4px 18px -2px rgba(19, 113, 76, 0.35);
+}
+
+.btn-save-animated:active {
+  transform: scale(0.97);
+}
+
+.btn-save-animated::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 60%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.6s ease;
+  transform: scale(0.5);
+}
+
+.btn-save-animated:hover::after {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ==========================================================================
+   Accessibility Suite Global Styles
+   ========================================================================== */
+html.accessibility-bigger-text {
+  font-size: 118% !important;
+}
+
+html.accessibility-spacing * {
+  letter-spacing: 0.10em !important;
+  word-spacing: 0.16em !important;
+}
+
+html.accessibility-line-height * {
+  line-height: 2 !important;
+}
+
+html.accessibility-highlight-links a,
+html.accessibility-highlight-links [role="link"] {
+  text-decoration: underline !important;
+  text-decoration-thickness: 2.5px !important;
+  text-underline-offset: 4px !important;
+  outline: 2px solid #6332ea !important;
+  background-color: #fef08a !important;
+  color: #1e1b4b !important;
+}
+
+html.accessibility-dyslexia,
+html.accessibility-dyslexia * {
+  font-family: 'OpenDyslexic', 'Comic Sans MS', sans-serif !important;
+}
+
+html.accessibility-hide-images img,
+html.accessibility-hide-images [style*="background-image"] {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+html.accessibility-large-cursor,
+html.accessibility-large-cursor * {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 24 24' fill='%236332ea' stroke='white' stroke-width='2'%3E%3Cpath d='M3 3l7 18 3-7 7-3L3 3z'/%3E%3C/svg%3E"), pointer !important;
+}
+
+html.accessibility-invert {
+  filter: invert(100%) hue-rotate(180deg) !important;
+  background-color: #000 !important;
+}
+
+html.accessibility-invert img,
+html.accessibility-invert video {
+  filter: invert(100%) hue-rotate(180deg) !important;
+}
+
+
+
+
+
+
+
+
